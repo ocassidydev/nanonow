@@ -22,6 +22,10 @@ h1, h2 {
 header {
     background-color: #2F3061;
     height: 10rem;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
 }
 
 #heading {
@@ -80,15 +84,16 @@ nav a:hover {
 /* Main image section index.html */
 
 #main-image-sec {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    /* top: 10rem; */
 }
 
 #main-image-div {
     background: url(../images/graphene1920x1080.jpg) no-repeat center center;
-    height: 600px;
+    height: 800px;
     width: 100%;
 }
 
@@ -112,7 +117,7 @@ nav a:hover {
 /* Main section index.html */
 
 #why-nano {
-    margin: 80px 120px;
+    margin: 30px 120px;
     padding: 20px;
     width: 30%;
     background-color: rgba(92, 148, 110, 0.6);
@@ -132,4 +137,27 @@ hr {
 p {
     margin: 15px;
     font-size: 120%;
+}
+
+/* footer */
+
+footer {
+    background-color: #2F3061;
+    height: 10rem;
+}
+
+footer ul {
+    text-align: center;
+    line-height: 10rem;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 0 60px;
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F7FFF7;
 }
