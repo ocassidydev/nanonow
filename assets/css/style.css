@@ -10,43 +10,47 @@ body {
     font-family: 'Roboto Flex', sans-serif;
 }
 
-/* headings */
-
-header {
-    background-color: #1B2CC1;
-    height: 160px;
-}
-
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #32322C;
+    color: #343434;
+    letter-spacing: 2px;
+}
+
+/* headings */
+
+header {
+    background-color: #2F3061;
+    height: 10rem;
 }
 
 #heading {
     float: left;
     font-size: 300%;
     margin-left: 30px;
+    color: #948B89;
+    letter-spacing: 5px;
 }
 
 #heading-subtext{
     float: right;
     font-style: italic;
     text-transform: none;
-    margin-right: 30px;
-    color: beige;
+    margin: 40px 30px;
+    color: #F7FFF7;
+    line-height: 40px;
+    width: 15%;
 }
 
-/* navigation */
+/* navigation bar */
 
 nav {
     font-size: 150%;
     letter-spacing: 2px;
-    clear: both;
+    clear: left;
 }
 
-nav, #heading, #heading-subtext{
+nav, #heading{
     line-height: 80px;
 }
 
@@ -58,7 +62,6 @@ nav li {
     list-style-type: none;
     float: left;
     margin-left: 30px;
-    border: 1px #32322C;
 }
 
 nav a {
@@ -67,9 +70,66 @@ nav a {
 }
 
 .active {
-    color: white;
+    color: #F7FFF7;
 }
 
 nav a:hover {
-    color: white;
+    color: #F7FFF7;
+}
+
+/* Main image section index.html */
+
+#main-image-sec {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image-div {
+    background: url(../images/graphene1920x1080.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
+}
+
+#important-text {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    background-color: rgba(66, 66, 66, 0.7)
+}
+
+#important-text h2{
+    color: #ffffff;
+    font-size: 200%;
+    letter-spacing: 3px;
+}
+
+/* Main section index.html */
+
+#why-nano {
+    margin: 80px 120px;
+    padding: 20px;
+    width: 30%;
+    background-color: rgba(92, 148, 110, 0.6);
+    border-radius: 10px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0; 
+}
+
+.text-box h2 {
+    font-size: 200%;
+}
+
+p {
+    margin: 15px;
+    font-size: 120%;
 }
