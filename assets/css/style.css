@@ -12,6 +12,11 @@ body {
 
 /* headings */
 
+header {
+    background-color: #4C6085;
+    height: 160px;
+}
+
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -19,20 +24,55 @@ h1, h2 {
     color: #32322C;
 }
 
-h1 {
+#heading {
     float: left;
     font-size: 300%;
-    margin: 10px 0 0 30px;
+    margin-left: 30px;
 }
 
 #heading-subtext{
     float: right;
     font-style: italic;
     text-transform: none;
-    margin: 24px 30px 0 0;
+    margin-right: 30px;
     color: beige;
 }
 
-header {
-    background-color: #4C6085;
+hr {
+    color: #32322C;
+}
+
+/* navigation */
+
+nav {
+    font-size: 150%;
+    letter-spacing: 2px;
+    clear: both;
+}
+
+nav, #heading, #heading-subtext{
+    line-height: 80px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    color: white;
+}
+
+nav a:hover {
+    color: white;
 }
