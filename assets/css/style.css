@@ -13,7 +13,7 @@ body {
 /* headings */
 
 header {
-    background-color: #4C6085;
+    background-color: #1B2CC1;
     height: 160px;
 }
 
@@ -38,10 +38,6 @@ h1, h2 {
     color: beige;
 }
 
-hr {
-    color: #32322C;
-}
-
 /* navigation */
 
 nav {
@@ -62,6 +58,7 @@ nav li {
     list-style-type: none;
     float: left;
     margin-left: 30px;
+    border: 1px #32322C;
 }
 
 nav a {
