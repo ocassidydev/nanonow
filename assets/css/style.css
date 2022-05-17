@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto Flex', sans-serif;
+    background-color: #F7FFF7;
 }
 
 h1, h2 {
@@ -83,7 +84,7 @@ nav a:hover {
 
 /* Main image section index.html */
 
-#main-image-sec {
+#main-image {
     height: 800px;
     width: 100%;
     overflow: hidden;
@@ -116,11 +117,11 @@ nav a:hover {
 
 /* Main section index.html */
 
-#why-nano {
+#why-nano-text {
     margin: 30px 120px;
     padding: 20px;
     width: 30%;
-    background-color: rgba(92, 148, 110, 0.6);
+    background-color: #5C946E;
     border-radius: 10px;
 }
 
