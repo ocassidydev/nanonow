@@ -10,12 +10,29 @@
 </head>
 <body>
     <header>
+        <!-- hamburger menu -->
+        <nav id="ham-nav">
+            <label for="hamburger"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="hamburger"/>
+        
+            <div id="ham-items">
+                <a href="index.html" class="active">Home</a>
+                <a href="materials.html">Materials</a>
+                <a href="applications.html">Applications</a>
+                <a href="news.html">News</a>
+                <a href="about-us.html">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
         <!-- page heading -->
-        <h1 id="heading">NanoNOW</h1>
+        <a href="index.html">
+            <h1 id="heading">NanoNOW</h1>
+        </a>
         <h2 id="heading-subtext">The nanotechnology of tomorrow, today!</h2>
 
         <!-- navigation bar -->
-        <nav>
+        <nav id="nav-bar">
             <ul>
                 <li>
                     <a href="index.html" class="active">Home</a>
@@ -33,63 +50,68 @@
                     <a href="about-us.html">About</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
         </nav>
+
     </header>
-    <!-- main image -->
-    <section id="main-image">
-        <div id="main-image-div">
-            <div id="important-text">
-                <h2>The frontier of material science</h2>
-            </div>
-        </div>
-    </section>
-    <!-- about section -->
-    <section id="why-nano">
-        <div id="why-nano-text" class="text-box">
-            <h2>Why nano?</h2>
-            <hr>
-            <p>
-                Nanomaterials have incredible properties which will have outsized impact in our everyday, from the clothes we wear, 
-                to the devices we use, to the medicines we take. Already, many commercially-available products rely on nanotech.
-            </p>
-            <p>
-                Knowledge of the science behind these materials is key to multi-disciplinary innovation in this frontier, along with raising public awareness 
-                of the enormous potential of nano.
-            </p>
-            <p>
-                Whether you have no scientific background or are an expert in another field, this site is for you. Read on to learn more!
-            </p>
-        </div>
-        <div id="why-nano-images" class="images-circle">
-            <div class="two-image-row">
-                <div class="image-box">
-                    <img src="assets/images/bodyarmor620x465.jpg" alt="Man in futuristic body armor" id="body-armor" class="why-nano-image">
-                </div>
-                <div class="image-box">
-                    <img src="assets/images/solarpanels3916 × 2937.jpg" alt="Solar panels" id="solar" class="why-nano-image">
+        
+    </nav>
+    <main>
+        <!-- main image -->
+        <section id="main-image">
+            <div id="main-image-div">
+                <div id="important-text">
+                    <h2>The frontier of material science</h2>
                 </div>
             </div>
-            <div class="two-image-row">
-                <div class="image-box">
-                    <img src="assets/images/nostain3353 × 2514.webp" alt="Fabric that repels different liquids" id="nostain" class="why-nano-image">
+        </section>
+        <!-- about section -->
+        <section id="why-nano">
+            <div id="why-nano-text" class="text-box">
+                <h2>Why nano?</h2>
+                <hr>
+                <p>
+                    Nanomaterials have incredible properties which will have outsized impact in our everyday, from the clothes we wear, 
+                    to the devices we use, to the medicines we take. Already, many commercially-available products rely on nanotech.
+                </p>
+                <p>
+                    Knowledge of the science behind these materials is key to multi-disciplinary innovation in this frontier, along with raising public awareness 
+                    of the enormous potential of nano.
+                </p>
+                <p>
+                    Whether you have no scientific background or are an expert in another field, this site is for you. Read on to learn more!
+                </p>
+            </div>
+            <div id="why-nano-images" class="images-circle">
+                <div class="two-image-row">
+                    <div class="image-box">
+                        <img src="assets/images/bodyarmor620x465.jpg" alt="Man in futuristic body armor" id="body-armor" class="why-nano-image">
+                    </div>
+                    <div class="image-box">
+                        <img src="assets/images/solarpanels3916 × 2937.jpg" alt="Solar panels" id="solar" class="why-nano-image">
+                    </div>
                 </div>
-                <div class="image-box">
-                    <img src="assets/images/hydrogen533x400.jpg" alt="Hydrogen fuel cell" id="hydrogen" class="why-nano-image">
+                <div class="two-image-row">
+                    <div class="image-box">
+                        <img src="assets/images/nostain3353 × 2514.webp" alt="Fabric that repels different liquids" id="nostain" class="why-nano-image">
+                    </div>
+                    <div class="image-box">
+                        <img src="assets/images/hydrogen533x400.jpg" alt="Hydrogen fuel cell" id="hydrogen" class="why-nano-image">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="how-small-is-nano">
-        <div id="how-small-is-nano-text" class="text-box">
+        </section>
+        <section id="how-small-is-nano">
+            <div id="how-small-is-nano-text" class="text-box">
 
-        </div>
-        <div id="how-small-is-nano-images" class="image-box">
+            </div>
+            <div id="how-small-is-nano-images" class="image-box">
 
-        </div>
-    </section>
+            </div>
+        </section>
+    </main>
     <footer>
         <!-- social media links -->
         <ul>

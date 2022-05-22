@@ -31,7 +31,7 @@ header {
 
 #heading {
     float: left;
-    margin: 10px 30px;
+    margin: 10px 0 10px 30px;
     font-size: 400%;
     letter-spacing: 5px;
     color: #948B89;
@@ -56,7 +56,7 @@ nav {
     letter-spacing: 2px;
 }
 
-nav, #heading{
+#nav-bar, #heading{
     line-height: 80px;
 }
 
@@ -83,6 +83,43 @@ nav a:hover {
     color: #F7FFF7;
 }
 
+/* hamburger navigation bar */
+
+#ham-nav {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+}
+
+#ham-items a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+#ham-nav label { 
+    display: inline-block; 
+    height: 5rem;
+    padding: 12px;
+    line-height: 80px;
+    font-style: normal;
+    font-size: 1.2em;
+    color: white;
+    background: #5C946E;
+}
+
+#ham-items { 
+    display: none; 
+}
+
+#ham-nav input:checked ~ #ham-items { 
+    display: block; 
+    background-color: #948B89;
+}
+
 /* Main image section index.html */
 
 #main-image {
@@ -95,7 +132,7 @@ nav a:hover {
 #main-image-div {
     width: 100%;
     height: 800px;
-    background: url(../images/graphene1920x1080.jpg) no-repeat center center;
+    background: url(../images/graphene1920x1080.jpg) repeat center center;
 }
 
 #important-text {
@@ -255,14 +292,61 @@ footer a {
     }
 }
 
-@media screen and (max-width: 763px) {
+@media screen and (max-width: 768px) {
+    header {
+        height: 6.5rem;
+    }
+    
+    #nav-bar {
+        display: none;
+    }
+
     #heading {
-        margin: 0;
-        width: 100%;
-        text-align: center;
+        margin: 10px 0 0 10px;
+        font-size: 300%;
     }
 
     #heading-subtext {
         display: none;
+    }
+
+    #ham-nav{
+        display: inline-block;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #heading{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    #ham-nav{
+        position: absolute;
+        top: 4.5rem;
+        left: 0;
+        width: 100%;
+    }
+
+    #ham-nav label{
+        width: 100%;
+        height: 2rem;
+        padding: 5px;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #heading{
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 210px){
+    #heading{
+        font-size: 150%;
     }
 }
