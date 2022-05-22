@@ -146,64 +146,53 @@ p {
 
 /* image boxes */
 #why-nano-images {
-    position: relative;
     float: right;
     border: 1px solid #000;
     width: 50%;
     padding-bottom: 50%;
     background-color: #2F3061;
-    line-height: 0;
-    column-count: 2;
-    gap: 0 0;
 }
 
-.image-box {
-    position: relative;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+.images-circle {
     overflow: hidden;
     margin: 30px 120px;
     border-radius: 50%;
     height: 0;
 }
 
+.two-image-row {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 50%;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+.image-box{
+    overflow: hidden;
+}
+
 .why-nano-image{
-    width: 100%;
-    height: 40px;
+    position: relative;
+    width: 150%;
 }
 
-#test1{
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 1;
+#body-armor{
+    right: 20%;
 }
 
-#test2{
-    grid-row-start: 2;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 1;
+#solar {
+    right: 30%;
 }
 
-#test3{
-    grid-row-start: 3;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 2;
+#nostain {
+    right: 10%;
 }
 
-#test4{
-    grid-row-start: 4;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-start: 2;
-}
-
-img{
-    width: 100%;
-    height: 100%;
+#hydrogen {
+    right: 45%;
 }
 
 /* footer */
