@@ -37,6 +37,7 @@ header {
     top: 0;
     width: 100%;
     height: 10.5rem;
+    border-bottom: 1px solid #000;
     background-color: #2F3061;
 }
 
@@ -137,12 +138,12 @@ nav a:hover {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 800px;
+    height: 1000px;
 }
 
 #main-image-div {
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background: url(../images/graphene1920x1080.jpg) repeat center center;
 }
 
@@ -171,8 +172,7 @@ nav a:hover {
     clear: both;
     position: relative;
     display: inline-block;
-    vertical-align: middle;
-    margin: 3%;
+    border: 2px solid #000;
     border-radius: 10px;
     padding: 2% 3%;
 }
@@ -189,7 +189,7 @@ nav a:hover {
 
 .text-box p {
     margin: 15px;
-    font-size: 120%;
+    font-size: 130%;
     letter-spacing: 1px;
 }
 
@@ -201,43 +201,27 @@ nav a:hover {
     color: #343434;
 }
 
-
-/* individual text box stylings */
-/* homepage */
-#why-nano-text {
-    width: 50%;
-    background-color: #E8871E;
-}
-
-#how-small-is-nano-text{
-    float: right;
-    width: 40%;
-    background-color: #DE2E2B;
-    color: #F7FFF7;
-}
-
-#how-small-is-nano-text h2{
-    color: #B0B2B8;
-}
-
-#how-small-is-nano-text hr {
-    border-top: 1px solid #B0B2B8;
-}
-
-
-/* image and caption */
+/* image and caption boxes */
 .image-and-caption {
-    margin: 3%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #B0B2B8;
 }
 
 .image-and-caption p{
     margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
     font-style: italic;
     font-size: 120%;
     letter-spacing: 1px;
+    text-align: center;
+    padding: 1%;
+    background-color: white;
 }
 
-/* 4-image circles */
+/* 4-image circle */
 .images-circle {
     overflow: hidden;
     border: 1px solid #000;
@@ -266,10 +250,69 @@ nav a:hover {
     width: 150%;
 }
 
+/* image column */
+.column-image-box {
+    overflow: hidden;
+    text-align: center;
+    padding: 1%;
+}
+
+.column-image-box h3{
+    position: absolute;
+    float: left;
+    margin: 4% 1%;
+    width: 10%;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.column-image-box p {
+    margin-top: 0;
+}
+
+.image-in-box-column {
+    position: relative;
+    border: 1px solid #000;
+    width: 30%;
+}
+
+/* individual text and image box stylings */
+/* homepage */
+#why-nano-text {
+    width: 50%;
+    background-color: #E8871E;
+    margin: 8% 3%;
+}
+
+#how-small-is-nano-text{
+    float: right;
+    width: 40%;
+    margin: 8% 3%;
+    background-color: #DE2E2B;
+    color: #F7FFF7;
+}
+
+#how-small-is-nano-text h2{
+    color: rgb(204, 204, 45);
+}
+
+#how-small-is-nano-text hr {
+    border-top: 1px solid rgb(204, 204, 45);
+}
+
+/* how small images */
+#how-small-image-div {
+    margin: 0 3% 3% 3%;
+    float: left;
+    width: 39%;
+}
+
 /* why nano images */
 #why-nano-image-div {
     float: right;
-    width: 32%;
+    margin: 3% 3% 0 3%;
+    width: 29%;
 }
 
 #body-armor{
@@ -286,45 +329,6 @@ nav a:hover {
 
 #hydrogen {
     right: 45%;
-}
-
-/* image columns */
-.images-column {
-    border: 2px solid #000;
-    border-radius: 10px;
-    background-color: #B0B2B8;
-}
-
-.column-image-box {
-    overflow: hidden;
-    text-align: center;
-    padding: 1%;
-}
-
-.column-image-box h3{
-    position: absolute;
-    float: left;
-    margin: 4% 2%;
-    width: 10rem;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.column-image-box p {
-    margin-top: 0;
-}
-
-.image-in-box-column {
-    position: relative;
-    border: 1px solid #000;
-    width: 30%;
-}
-
-/* how small is nano images */
-#how-small-image-div {
-    float: left;
-    width: 42%;
 }
 
 /* footer */
@@ -357,32 +361,125 @@ footer a {
     #heading-subtext {
         width: 20%;
     }
+
+    #how-small-is-nano-text{
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    #why-nano-text {
+        margin: 6% 3%;
+    }
+
+    #how-small-is-nano-text {
+        margin-top: 1%;
+    }
+
+    #how-small-image-div {
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    #how-small-image-div .image-in-box-column{
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 1340px) {
     #heading-subtext {
         width: 25%;
     }
+
+    #why-nano-text{
+        margin: 5% 3%;
+    }
+
+    #how-small-image-div h3{
+        position: relative;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1301px) {
+    #how-small-image-div .image-in-box-column{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1264px) {
+    #why-nano-text{
+        margin: 3%;
+    }
+}
+
+@media screen and (max-width: 1243px) {
+    #how-small-image-div .image-in-box-column{
+        width: 48.5%;
+    }
 }
 
 @media screen and (max-width: 1100px) {
     #heading-subtext {
-        width: 30%;
+        width: 35%;
         margin: 10px 30px;
     }
 
     nav {
         margin-top: 0;
     }
-}
 
-@media screen and (max-width: 886px) {
-    #heading-subtext {
-        width: 35%;
+    #why-nano-text {
+        width:88%;
+    }
+
+    #why-nano-image-div {
+        margin: 0.5% 18% 3% 18%;
+        width: 60%;
+        padding: 2%;
+    }
+
+    #how-small-image-div .image-in-box-column{
+        width: 60%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1047px) {
+    #how-small-image-div .image-in-box-column{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 980px){
+    #how-small-image-div .image-in-box-column{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 880px){
+    #how-small-image-div .image-in-box-column{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #how-small-is-nano-text {
+        width: 88%;
+    }
+
+    #how-small-image-div {
+        width: 92%;
+    }
+
+    #how-small-image-div .image-in-box-column{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 780px) {
     header {
         height: 6.5rem;
     }
@@ -403,6 +500,59 @@ footer a {
     #ham-nav{
         display: inline-block;
         float: left;
+    }
+    
+    #important-text{
+        width: 80%;
+        font-size: 75%;
+    }
+
+    .text-box h2 {
+        text-align: center;
+    }
+
+    #why-nano-text {
+        margin: 6%;
+        width: 82%;
+    }
+
+    #why-nano-image-div {
+        margin: 3% 18%;
+    }
+
+    #how-small-is-nano-text {
+        margin: 6%;
+        width: 82%;
+    }
+
+    #how-small-image-div {
+        margin: 3% 6% 6% 6%;
+        width: 84%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    footer li{
+        margin: 0 30px;
+    }
+
+    #why-nano-image-div {
+        margin: 3% 9%;
+        width: 76%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    #how-small-image-div .image-in-box-column{
+        width: 70%;
+    }
+
+    .text-box{
+        font-size: 80%;
+    }
+
+    .image-and-caption{
+        font-size: 80%;
     }
 }
 
@@ -429,14 +579,60 @@ footer a {
     }
 }
 
+@media screen and (max-width: 390px) {
+    footer li{
+        margin: 0 20px;
+    }
+
+    body {
+        font-size: 90%;
+    }
+}
+
 @media screen and (max-width: 300px){
     #heading{
         font-size: 200%;
     }
+
+    footer li{
+        margin: 0 10px;
+    }
+
+    body {
+        font-size: 80%;
+    }
 }
+
+@media screen and (max-width: 350px){
+    #how-small-image-div .image-in-box-column{
+        width: 90%;
+    }
+}
+
 
 @media screen and (max-width: 210px){
     #heading{
         font-size: 150%;
+    }
+
+    body {
+        font-size: 70%;
+    }
+
+    footer{
+        font-size: 75%;
+    }
+
+    footer li{
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 120px) {
+    body{
+        font-size: 50%;
+    }
+    footer {
+        font-size: 50%;
     }
 }
