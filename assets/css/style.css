@@ -198,21 +198,32 @@ nav a:hover {
 }
 
 .text-box a:hover {
-    color: ;
+    color: #343434;
 }
 
+
+/* individual text box stylings */
+/* homepage */
 #why-nano-text {
     width: 50%;
     background-color: #E8871E;
-    /* color: #F7FFF7; */
 }
 
 #how-small-is-nano-text{
     float: right;
-    width: 50%;
+    width: 40%;
     background-color: #DE2E2B;
     color: #F7FFF7;
 }
+
+#how-small-is-nano-text h2{
+    color: #B0B2B8;
+}
+
+#how-small-is-nano-text hr {
+    border-top: 1px solid #B0B2B8;
+}
+
 
 /* image and caption */
 .image-and-caption {
@@ -246,11 +257,11 @@ nav a:hover {
     column-gap: 0;
 }
 
-.image-box{
+.circle-image-box{
     overflow: hidden;
 }
 
-.image-in-box{
+.image-in-box-circle{
     position: relative;
     width: 150%;
 }
@@ -262,7 +273,7 @@ nav a:hover {
 }
 
 #body-armor{
-    right: 20%;
+    right: 10%;
 }
 
 #solar {
@@ -277,10 +288,43 @@ nav a:hover {
     right: 45%;
 }
 
+/* image columns */
+.images-column {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #B0B2B8;
+}
+
+.column-image-box {
+    overflow: hidden;
+    text-align: center;
+    padding: 1%;
+}
+
+.column-image-box h3{
+    position: absolute;
+    float: left;
+    margin: 4% 2%;
+    width: 10rem;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.column-image-box p {
+    margin-top: 0;
+}
+
+.image-in-box-column {
+    position: relative;
+    border: 1px solid #000;
+    width: 30%;
+}
+
 /* how small is nano images */
 #how-small-image-div {
     float: left;
-    width: 32%;
+    width: 42%;
 }
 
 /* footer */
