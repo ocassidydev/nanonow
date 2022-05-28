@@ -167,6 +167,12 @@ nav a:hover {
 
 /* Main section index.html */
 
+/* anchor for about section */
+#about-anchor{
+    position: absolute;
+    top: 832px;
+}
+
 /* text boxes */
 .text-box{
     clear: both;
