@@ -26,12 +26,16 @@ img {
     width: 100%;
 }
 
+li {
+    list-style-type: none;
+}
+
 .centered{
     text-align: center;
 }
 
 /* HEADER */
-
+/* headings */
 header {
     position: fixed;
     z-index: 2;
@@ -53,11 +57,11 @@ header {
 #heading-subtext{
     float: right;
     margin: 40px 30px;
-    width: 15%;
+    width: 40%;
     line-height: 40px;
     font-style: italic;
+    text-align: right;
     text-transform: none;
-    text-align: center;
     color: #F7FFF7;
 }
 
@@ -67,6 +71,7 @@ nav {
     clear: left;
     font-size: 150%;
     letter-spacing: 2px;
+    margin-top: 0;
 }
 
 #nav-bar, #heading{
@@ -80,7 +85,6 @@ nav ul {
 nav li {
     float: left;
     margin-left: 30px;
-    list-style-type: none;
 }
 
 nav a {
@@ -134,12 +138,69 @@ nav a:hover {
 }
 
 /* CLASSES USED OVER PROJECT */
+/* hero images */
+.main-image{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-image-div{
+    position: relative;
+    height: inherit;
+    width: 100%;
+}
+
+.important-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    background-color: rgba(66, 66, 66, 0.7)
+}
+
+.important-text h2{
+    font-size: 400%;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.important-text p{
+    font-size: 200%;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.important-text ul {
+    font-size: 200%;
+    color: #ffffff;
+}
+
+.important-text h3{
+    margin: 10px 5px;
+}
+
+.important-text li {
+    margin: 5px;
+}
+
+.important-text a {
+    color: #F7FFF7;
+}
+
+.important-text a:hover {
+    color: tan;
+}
+
 /* text boxes */
 .text-box{
     clear: both;
     position: relative;
     display: inline-block;
-    margin: 1.5% 3%;
+    margin: 3%;
     border: 2px solid #000;
     border-radius: 10px;
     padding: 2% 3%;
@@ -159,6 +220,14 @@ nav a:hover {
     margin: 15px;
     font-size: 130%;
     letter-spacing: 1px;
+}
+
+.text-box a {
+    color: #B0B2B8;
+}
+
+.text-box a:hover {
+    color: #343434;
 }
 
 /* colored text boxes */
@@ -192,7 +261,6 @@ nav a:hover {
 }
 
 .black h2{
-    text-align: center;
     color: #FFFFFF;
 }
 
@@ -204,66 +272,76 @@ nav a:hover {
     color: #F7FFF7;
 }
 
-/* hero images */
-.main-image{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+/* orange */
+.orange {
+    background-color: #E8871E;
 }
 
-.main-image-div{
-    position: relative;
-    height: inherit;
-    width: 100%;
-}
-
-.important-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    border: 5px solid #FFFF00;
-    padding: 10px;
-    background-color: rgba(66, 66, 66, 0.7)
-}
-
-.important-text h2{
-    font-size: 400%;
-    letter-spacing: 3px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.important-text p{
-    font-size: 200%;
-    color: #ffffff;
-    text-align: center;
-    margin: 10px;
-}
-
-.important-text ul {
-    font-size: 200%;
-    color: #ffffff;
-    list-style-type: none;
-}
-
-.important-text h3{
-    margin: 10px 5px;
-}
-
-.important-text li {
-    margin: 5px;
-}
-
-.important-text a {
+.orange a {
     color: #F7FFF7;
 }
 
-.important-text a:hover {
-    color: tan;
+/* image and caption boxes */
+.image-and-caption {
+    margin: 3%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #B0B2B8;
 }
 
+.image-and-caption p{
+    margin: 20px 5px 5px 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding: 1%;
+    background-color: white;
+}
+
+/* Image containers */
+.images-circle {
+    overflow: hidden;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+}
+
+.circle-image-box{
+    overflow: hidden;
+}
+
+.image-in-box-circle{
+    position: relative;
+    width: 150%;
+}
+
+.rounded-image{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+/* div for aligning images horizontally */
+.two-image-row {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 50%;
+    column-count: 2;
+    column-gap: 0;
+}
+
+/* divs for aligning images vertically*/
+.column-image-box {
+    overflow: hidden;
+    padding: 1%;
+}
+
+/* HERO IMAGE SECTION OF EACH PAGE */
 /* Main image section for home */
 #home-main-image {
     height: 1000px;
@@ -322,122 +400,52 @@ nav a:hover {
     top: 832px;
 }
 
-.text-box a {
-    color: #B0B2B8;
+/* individual text and image box stylings */
+#why-nano-text {
+    width: 30%;
+    margin-left: 14.25%;
 }
 
-.text-box a:hover {
-    color: #343434;
+#why-nano-image-div {
+    float: right;
+    margin-right: 14.25%;
+    padding: 1.5% 3%;
+    width: 23%;
 }
 
-/* image and caption boxes */
-.image-and-caption {
-    margin: 1.5% 3%;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 1%;
-    background-color: #B0B2B8;
+#how-small-is-nano-text{
+    float: right;
+    margin-right: 13.75%;
+    width: 30%;
 }
 
-.image-and-caption p{
-    margin: 20px 5px 5px 5px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    font-style: italic;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 1%;
-    background-color: white;
-}
-
-/* 4-image circle */
-.images-circle {
-    overflow: hidden;
-    border: 1px solid #000;
-    border-radius: 50%;
-    padding-bottom: 100%;
-    width: 100%;
-    height: 0;
-}
-
-.rounded-image{
-    overflow: hidden;
-    border-radius: 20px;
-    border: 1px solid #000000;
-}
-
-.two-image-row {
-    clear: both;
-    overflow: hidden;
-    height: 0;
-    padding-bottom: 50%;
-    column-count: 2;
-    column-gap: 0;
-}
-
-.circle-image-box{
-    overflow: hidden;
-}
-
-.image-in-box-circle{
-    position: relative;
-    width: 150%;
-}
-
-/* image column */
-.column-image-box {
-    overflow: hidden;
-    text-align: center;
-    padding: 1%;
-}
-
-.column-image-box h3{
-    position: absolute;
+#how-small-image-div {
     float: left;
-    margin: 4% 1%;
-    width: 10%;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.column-image-box p {
-    margin-top: 0;
+    margin-left: 13.75%;
+    padding: 0;
+    width: 30%;
 }
 
 .image-in-box-column {
     position: relative;
     border: 1px solid #000;
-    width: 30%;
-}
-
-/* individual text and image box stylings */
-#why-nano-text {
-    width: 50%;
-    background-color: #E8871E;
-    margin: 8% 3%;
-}
-
-#how-small-is-nano-text{
-    float: right;
     width: 40%;
-    margin: 8% 3%;
 }
 
-/* how small images */
-#how-small-image-div {
-    margin: 0 3% 3% 3%;
+.column-image-box h3{
+    position: absolute;
     float: left;
-    width: 39%;
+    margin: 4% 1px;
+    width: 10%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-/* why nano images */
-#why-nano-image-div {
-    float: right;
-    margin: 3% 3% 0 3%;
-    width: 29%;
+.column-image-box p {
+    margin: 0 8%;
 }
 
+/* images within circle */
 #body-armor{
     right: 10%;
 }
@@ -631,13 +639,11 @@ footer {
 
 footer ul {
     line-height: 10rem;
-    text-align: center;
 }
 
 footer li {
     display: inline;
     margin: 0 60px;
-    list-style-type: none;
 }
 
 footer a {
@@ -646,129 +652,6 @@ footer a {
 }
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 1780px) {
-    #heading-subtext {
-        width: 20%;
-    }
-
-    #how-small-is-nano-text{
-        margin: 3%;
-    }
-}
-
-@media screen and (max-width: 1620px) {
-    #why-nano-text {
-        margin: 6% 3%;
-    }
-
-    #how-small-is-nano-text {
-        margin-top: 1%;
-    }
-
-    #how-small-image-div {
-        margin-top: 1%;
-    }
-}
-
-@media screen and (max-width: 1530px) {
-    #how-small-image-div .image-in-box-column{
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 1340px) {
-    #heading-subtext {
-        width: 25%;
-    }
-
-    #why-nano-text{
-        margin: 5% 3%;
-    }
-
-    #how-small-image-div h3{
-        position: relative;
-        margin: 0;
-        width: 100%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1301px) {
-    #how-small-image-div .image-in-box-column{
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 1264px) {
-    #why-nano-text{
-        margin: 3%;
-    }
-}
-
-@media screen and (max-width: 1243px) {
-    #how-small-image-div .image-in-box-column{
-        width: 48.5%;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    #heading-subtext {
-        width: 35%;
-        margin: 10px 30px;
-    }
-
-    nav {
-        margin-top: 0;
-    }
-
-    #why-nano-text {
-        width:88%;
-    }
-
-    #why-nano-image-div {
-        margin: 0.5% 18% 3% 18%;
-        width: 60%;
-        padding: 2%;
-    }
-
-    #how-small-image-div .image-in-box-column{
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 1047px) {
-    #how-small-image-div .image-in-box-column{
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 980px){
-    #how-small-image-div .image-in-box-column{
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 880px){
-    #how-small-image-div .image-in-box-column{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 850px){
-    #how-small-is-nano-text {
-        width: 88%;
-    }
-
-    #how-small-image-div {
-        width: 92%;
-    }
-
-    #how-small-image-div .image-in-box-column{
-        width: 50%;
-    }
-}
-
 @media screen and (max-width: 780px) {
     header {
         height: 6.5rem;
@@ -793,30 +676,10 @@ footer a {
     
     #important-text{
         width: 80%;
-        font-size: 75%;
     }
 
     .text-box h2 {
         text-align: center;
-    }
-
-    #why-nano-text {
-        margin: 6%;
-        width: 82%;
-    }
-
-    #why-nano-image-div {
-        margin: 3% 18%;
-    }
-
-    #how-small-is-nano-text {
-        margin: 6%;
-        width: 82%;
-    }
-
-    #how-small-image-div {
-        margin: 3% 6% 6% 6%;
-        width: 84%;
     }
 }
 
@@ -825,24 +688,6 @@ footer a {
         margin: 0 30px;
     }
 
-    #why-nano-image-div {
-        margin: 3% 9%;
-        width: 76%;
-    }
-}
-
-@media screen and (max-width: 540px){
-    #how-small-image-div .image-in-box-column{
-        width: 70%;
-    }
-
-    .text-box{
-        font-size: 80%;
-    }
-
-    .image-and-caption{
-        font-size: 80%;
-    }
 }
 
 @media screen and (max-width: 450px){
@@ -872,10 +717,6 @@ footer a {
     footer li{
         margin: 0 20px;
     }
-
-    body {
-        font-size: 90%;
-    }
 }
 
 @media screen and (max-width: 300px){
@@ -886,28 +727,9 @@ footer a {
     footer li{
         margin: 0 10px;
     }
-
-    body {
-        font-size: 80%;
-    }
 }
-
-@media screen and (max-width: 350px){
-    #how-small-image-div .image-in-box-column{
-        width: 90%;
-    }
-}
-
 
 @media screen and (max-width: 210px){
-    #heading{
-        font-size: 150%;
-    }
-
-    body {
-        font-size: 70%;
-    }
-
     footer{
         font-size: 75%;
     }
