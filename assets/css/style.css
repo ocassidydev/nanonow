@@ -386,6 +386,7 @@ nav a:hover {
 /* main image section for contact */
 #contact-main-image {
     height: 1248px;
+    margin-bottom: 0;
 }
 
 #contact-image-div {
@@ -475,8 +476,8 @@ nav a:hover {
 /* individual text and image box stylings */
 /* intro text */
 #materials-intro-text {
-    width: 60%;
-    margin: 1.5% 17%;
+    width: 61%;
+    margin: 1.5% 16.5%;
 }
 
 /* 0-D text */
@@ -499,11 +500,6 @@ nav a:hover {
     padding-bottom: 60%;
     margin: 0 20%;
 } 
-
-.material-row {
-    height: auto;
-    padding: 0;
-}
 
 #metal-np{
     position: relative;
@@ -590,54 +586,76 @@ nav a:hover {
 
 /* MAIN SECTION OF APPLICATIONS PAGE */
 /* intro */
+#applications-intro-text {
+    width: 60%;
+    margin: 1.5% 16.5%;
+}
+
 #robot-div{
-    margin: 0 37.5% 2% 37.5%;
-    width: 25%;
+    margin: 2% 35% 2% 35%;
+    width: 30%;
 }
 
 /* batteries */
-#batteries-images {
-    width: 80%;
-    margin: 1.5% 10%;
+#batteries-text {
+    width: 30%;
+    margin-left: 16.5%;
 }
 
-#battery-row {
-    height: auto;
-    padding-bottom: 0;
+#batteries-images {
+    float: right;
+    width: 22%;
+    margin-right: 16.5%;
 }
 
 .applications-box{
     padding: 4%;
 }
 
+.bat-image {
+    width: 92.5%;
+}
+
 /* wearables */
 #flex-text {
-    width: 30%;
-    margin: 1.5% 3%;
+    float: right;
+    width: 25%;
+    margin-right: 16.5%;
 }
 
 #wearable-images {
-    float: right;
-    width: 49%;
-    margin: 1.5% 3%;
+    float: left;
+    width: 27%;
+    margin-left: 16.5%;
+}
+
+.flex-img {
+    width: 60%;
+}
+
+#wearable-images .applications-box {
+    padding: 2%;
 }
 
 /* tatoos */
 #tat-text {
-    float: right;
-    width: 20%;
-    margin: 1.5% 3% 3% 3%;
+    float: left;
+    width: 23%;
+    margin-left: 16.5%;
 }
 
 #tat-images {
-    float: left;
-    width: 59%;
-    margin: 1.5% 3% 3% 3%;
+    float: right;
+    width: 29%;
+    margin-right: 16.5%;
 }
 
-#tat-images div {
-    width: 55%;
-    margin: 10px 22.5%;
+.tat-img {
+    width: 90%;
+}
+
+#tat-images a:hover {
+    color: #E8871E;
 }
 
 /* footer */
