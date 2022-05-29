@@ -57,7 +57,7 @@ header {
 #heading-subtext{
     float: right;
     margin: 40px 30px;
-    width: 40%;
+    width: 30%;
     line-height: 40px;
     font-style: italic;
     text-align: right;
@@ -267,6 +267,7 @@ nav a:hover {
 /* black */
 .black {
     background-color: #3A3335;
+    border: 2px solid #E8871E;
 }
 
 .black h2{
@@ -350,6 +351,19 @@ nav a:hover {
     padding: 1%;
 }
 
+/* classes for adding responsiveness */
+.margin-left {
+    margin-left: 16.5%;
+}
+
+.margin-right {
+    margin-right: 16.5%;
+}
+
+.margin-both {
+    margin: 1.5% 16.5%;
+}
+
 /* HERO IMAGE SECTION OF EACH PAGE */
 /* Main image section for home */
 #home-main-image {
@@ -412,41 +426,38 @@ nav a:hover {
 
 /* individual text and image box stylings */
 #why-nano-text {
-    width: 30%;
-    margin-left: 14.25%;
+    width: 29%;
 }
 
 #why-nano-image-div {
     float: right;
-    margin-right: 14.25%;
-    padding: 1.5% 3%;
-    width: 23%;
+    padding: 3% 3%;
+    width: 19%;
 }
 
 #how-small-is-nano-text{
     float: right;
-    margin-right: 13.75%;
-    width: 30%;
+    margin-bottom: 3%;
+    width: 28%;
 }
 
 #how-small-image-div {
     float: left;
-    margin-left: 13.75%;
+    margin-bottom: 3%;
     padding: 0;
-    width: 30%;
+    width: 26%;
 }
 
 .image-in-box-column {
     position: relative;
     border: 1px solid #000;
-    width: 40%;
+    width: 44%;
 }
 
 .column-image-box h3{
-    position: absolute;
-    float: left;
-    margin: 4% 1px;
-    width: 10%;
+    position: relative;
+    width: 100%;
+    text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -477,21 +488,18 @@ nav a:hover {
 /* intro text */
 #materials-intro-text {
     width: 61%;
-    margin: 1.5% 16.5%;
 }
 
 /* 0-D text */
 #zeroD-text {
     width: 35%;
     padding: 2% 3%;
-    margin-left: 16.5%;
 }
 
 /* 0-D images */
 #zeroD-images{
     float: right;
     width: 16.35%;
-    margin-right: 16.5%;
     padding: 0.5% 1.5%;
 }
 
@@ -517,14 +525,12 @@ nav a:hover {
 #oneD-text {
     float: right;
     width: 35%;
-    margin-right: 16.5%;
 }
 
 /* 1-D images */
 #oneD-images{
     float: left;
     width: 16.35%;
-    margin-left: 16.5%;
     padding: 1.5%;
 }
 
@@ -546,15 +552,16 @@ nav a:hover {
 
 /* 2-D text */
 #twoD-text {
+    float: left;
     width: 30%;
-    margin-left: 16.5%;
+    margin-bottom: 3%;
 }
 
 /* 2-D images */
 #twoD-images {
     float: right;
     width: 22%;
-    margin-right: 16.5%;
+    margin-bottom: 3%;
 }
 
 .twoD-material-circle {
@@ -587,8 +594,7 @@ nav a:hover {
 /* MAIN SECTION OF APPLICATIONS PAGE */
 /* intro */
 #applications-intro-text {
-    width: 60%;
-    margin: 1.5% 16.5%;
+    width: 60.75%;
 }
 
 #robot-div{
@@ -599,13 +605,11 @@ nav a:hover {
 /* batteries */
 #batteries-text {
     width: 30%;
-    margin-left: 16.5%;
 }
 
 #batteries-images {
     float: right;
     width: 22%;
-    margin-right: 16.5%;
 }
 
 .applications-box{
@@ -620,13 +624,11 @@ nav a:hover {
 #flex-text {
     float: right;
     width: 25%;
-    margin-right: 16.5%;
 }
 
 #wearable-images {
     float: left;
     width: 27%;
-    margin-left: 16.5%;
 }
 
 .flex-img {
@@ -641,13 +643,13 @@ nav a:hover {
 #tat-text {
     float: left;
     width: 23%;
-    margin-left: 16.5%;
+    margin-bottom: 3%;
 }
 
 #tat-images {
     float: right;
     width: 29%;
-    margin-right: 16.5%;
+    margin-bottom: 3%;
 }
 
 .tat-img {
@@ -680,26 +682,207 @@ footer a {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 780px) {
-    header {
-        height: 6.5rem;
+@media screen and (max-width: 1800px) {
+    main{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    main{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    main{
+        font-size: 70%;
+    }
+
+    #contact-image-div{
+        font-size: 90%;
+    }
+
+    #contact-text{
+        top: 20%;
+    }
+
+    #contact {
+        top: 55%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .margin-right{
+        margin-left: 1.5%;
+    }
+
+    .margin-left{
+        margin-right: 1.5%;
+    }
+
+    #why-nano-text{
+        width: 32%;
+    }
+
+    #how-small-is-nano-text{
+        width: 31%;
+    }
+
+    #zeroD-text, #oneD-text{
+        width: 38%;
+    }
+
+    #twoD-text, #batteries-text {
+        width: 33%;
+    }
+
+    #flex-text {
+        width: 28%;
+    }
+
+    #tat-text {
+        width: 26%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .text-box p{
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .margin-right{
+        margin-right: 15%;
+    }
+
+    .margin-left{
+        margin-left: 15%;
+    }
+
+    .margin-both{
+        margin: 1.5% 15%;
+    }
+
+    #why-nano-image-div{
+        width: 22%;
+    }
+
+    #how-small-image-div{
+        width: 29%;
+    }
+
+    #zeroD-images, #oneD-images{
+        width: 19%;
+    }
+
+    #twoD-images {
+        width: 25%;
+    }
+
+    #batteries-images{
+        width: 25%;
+    }
+
+    #wearable-images{
+        width: 30%;
+    }
+
+    #tat-images{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .margin-right{
+        margin-right: 10%;
+    }
+
+    .margin-left{
+        margin-left: 10%;
+    }
+
+    .margin-both{
+        margin: 1.5% 10%;
+    }
+
+    main {
+        font-size: 80%;
+    }
+
+    #why-nano-text {
+        width: 35%;
+    }
+
+    #how-small-is-nano-text{
+        width: 36%;
+    }
+
+    #materials-intro-text{
+        width: 74%;
+    }
+
+    #zeroD-text, #oneD-text{
+        width: 43%;
+    }
+
+    #twoD-text, #batteries-text {
+        width: 38%;
+    }
+
+    #flex-text {
+        width: 33%;
+    }
+
+    #tat-text {
+        width: 31%;
     }
     
-    #nav-bar {
-        display: none;
+    #why-nano-image-div{
+        width: 27%;
     }
 
-    #heading {
-        margin: 10px 0 0 10px;
-        font-size: 300%;
+    #how-small-image-div{
+        width: 34%;
     }
 
+    #zeroD-images, #oneD-images{
+        width: 24%;
+    }
+
+    #twoD-images {
+        width: 30%;
+    }
+
+    #batteries-images{
+        width: 30%;
+    }
+
+    #wearable-images{
+        width: 35%;
+    }
+
+    #tat-images{
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    #heading-subtext{
+        margin: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    #heading-subtext{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 780px) {
     #heading-subtext {
         display: none;
-    }
-
-    #ham-nav{
-        float: left;
     }
     
     #important-text{
@@ -708,6 +891,28 @@ footer a {
 
     .text-box h2 {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    header {
+        height: 6.5rem;
+    } 
+
+    #heading {
+        float: right;
+        width: 100%;
+        text-align: center;
+        font-size: 300%;
+    }
+
+    #nav-bar {
+        display: none;
+    }
+
+    #ham-nav {
+        position: absolute;
+        display: inline-block;
     }
 }
 
