@@ -592,6 +592,36 @@ nav a:hover {
     padding: 4%;
 }
 
+/* wearables */
+#flex-text {
+    width: 30%;
+    margin: 1.5% 3%;
+}
+
+#wearable-images {
+    float: right;
+    width: 49%;
+    margin: 1.5% 3%;
+}
+
+/* tatoos */
+#tat-text {
+    float: right;
+    width: 20%;
+    margin: 1.5% 3% 3% 3%;
+}
+
+#tat-images {
+    float: left;
+    width: 59%;
+    margin: 1.5% 3% 3% 3%;
+}
+
+#tat-images div {
+    width: 55%;
+    margin: 10px 22.5%;
+}
+
 /* footer */
 footer {
     clear: both;
