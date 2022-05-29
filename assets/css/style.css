@@ -132,16 +132,15 @@ nav a:hover {
     background-color: #948B89;
 }
 
-/* Main image section index.html */
-
-#main-image {
+/* Main image section for home */
+#home-main-image {
     position: relative;
     overflow: hidden;
     width: 100%;
     height: 1000px;
 }
 
-#main-image-div {
+#home-image-div {
     width: 100%;
     height: 1000px;
     background: url(../images/graphene1920x1080.jpg) repeat center center;
@@ -165,7 +164,23 @@ nav a:hover {
     color: #ffffff;
 }
 
-/* Main section index.html */
+/* Main image section for materials */
+#materials-main-image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 641px;
+}
+
+#materials-image-div {
+    position: relative;
+    top: 10.5rem;
+    width: 100%;
+    height: 473px;
+    background: url(../images/buckies630x473.jpg) repeat center center;
+}
+
+/* MAIN SECTION OF HOMEPAGE */
 
 /* anchor for about section */
 #about-anchor{
@@ -220,7 +235,6 @@ nav a:hover {
     border: 1px solid #000;
     border-radius: 5px;
     font-style: italic;
-    font-size: 120%;
     letter-spacing: 1px;
     text-align: center;
     padding: 1%;
@@ -284,7 +298,6 @@ nav a:hover {
 }
 
 /* individual text and image box stylings */
-/* homepage */
 #why-nano-text {
     width: 50%;
     background-color: #E8871E;
@@ -335,6 +348,71 @@ nav a:hover {
 
 #hydrogen {
     right: 45%;
+}
+
+/* MAIN SECTION OF MATERIALS PAGE */
+/* individual text and image box stylings */
+/* intro text */
+#intro-text {
+    width: 88%;
+    background-color: #3A3335;
+    margin: 3%;
+}
+
+#intro-text h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#intro-text hr{
+    border: 1px solid #FFFFFF;
+}
+
+#intro-text p{
+    color: #F7FFF7;
+}
+
+/* 0-D text */
+#zeroD-text {
+    width: 50%;
+    margin: 0 3%;
+    background-color: #FCFC62;
+}
+
+#zeroD-text a {
+    color: #343434;
+}
+
+#zeroD-text a:hover{
+    color: #DE2E2B;
+}
+
+/* 0-D images */
+#zeroD-images{
+    float: right;
+    margin: 0 3%;
+    width: 29%;
+}
+
+#metal-np-div{
+    width: 60%;
+    padding-bottom: 60%;
+    margin: 0 20%;
+} 
+
+#metal-np{
+    position: relative;
+    right: 20%;
+}
+
+#buckyball-div {
+    width: 72.5%;
+    padding-bottom: 72.5%;
+    margin: 0 13.75%;
+} 
+
+#buckie{
+    text-align: center;
 }
 
 /* footer */
