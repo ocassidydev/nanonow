@@ -142,6 +142,7 @@ nav a:hover {
 .main-image{
     position: relative;
     overflow: hidden;
+    margin-bottom: 1.5%;
     width: 100%;
 }
 
@@ -200,7 +201,7 @@ nav a:hover {
     clear: both;
     position: relative;
     display: inline-block;
-    margin: 3%;
+    margin: 1.5% 3%;
     border: 2px solid #000;
     border-radius: 10px;
     padding: 2% 3%;
@@ -239,6 +240,14 @@ nav a:hover {
 /* yellow */
 .yellow {
     background-color: #FCFC62;
+}
+
+.yellow a {
+    color: #343434;
+}
+
+.yellow a:hover{
+    color: #DE2E2B;
 }
 
 /* red */
@@ -283,7 +292,7 @@ nav a:hover {
 
 /* image and caption boxes */
 .image-and-caption {
-    margin: 3%;
+    margin: 1.5% 3%;
     border: 2px solid #000;
     border-radius: 10px;
     padding: 1%;
@@ -465,41 +474,31 @@ nav a:hover {
 /* MAIN SECTION OF MATERIALS PAGE */
 /* individual text and image box stylings */
 /* intro text */
-#intro-text {
-    width: 88%;
-    margin-top: 3%;
+#materials-intro-text {
+    width: 60%;
+    margin: 1.5% 17%;
 }
 
 /* 0-D text */
 #zeroD-text {
-    width: 45%;
-}
-
-#zeroD-text a {
-    color: #343434;
-}
-
-#zeroD-text a:hover{
-    color: #DE2E2B;
+    width: 35%;
+    padding: 2% 3%;
+    margin-left: 16.5%;
 }
 
 /* 0-D images */
 #zeroD-images{
     float: right;
-    width: 34%;
+    width: 16.35%;
+    margin-right: 16.5%;
+    padding: 0.5% 1.5%;
 }
 
-.material-circle{
-    width: 80%;
-    padding-bottom: 80%;
-    margin: 0 10%;
+.zeroD-material-circle{
+    width: 60%;
+    padding-bottom: 60%;
+    margin: 0 20%;
 } 
-
-.lone-material-circle{
-    width: 40%;
-    padding-bottom: 40%;
-    margin: 0 30%;
-}
 
 .material-row {
     height: auto;
@@ -521,13 +520,22 @@ nav a:hover {
 /* 1-D text */
 #oneD-text {
     float: right;
-    width: 45%;
+    width: 35%;
+    margin-right: 16.5%;
 }
 
 /* 1-D images */
 #oneD-images{
     float: left;
-    width: 34%;
+    width: 16.35%;
+    margin-left: 16.5%;
+    padding: 1.5%;
+}
+
+.oneD-material-circle{
+    width: 80%;
+    padding-bottom: 80%;
+    margin: 0 10%;
 }
 
 #nanowire {
@@ -542,13 +550,21 @@ nav a:hover {
 
 /* 2-D text */
 #twoD-text {
-    width: 35%;
+    width: 30%;
+    margin-left: 16.5%;
 }
 
 /* 2-D images */
 #twoD-images {
     float: right;
-    width: 44%;
+    width: 22%;
+    margin-right: 16.5%;
+}
+
+.twoD-material-circle {
+    width: 70%;
+    padding-bottom: 70%;
+    margin: 0 15%;
 }
 
 #graphene {
@@ -559,12 +575,6 @@ nav a:hover {
 
 #football{
     position: relative;
-}
-
-#twoD-images .lone-material-circle {
-    width: 50%;
-    padding-bottom: 50%;
-    margin: 0 25%;
 }
 
 #bn {
