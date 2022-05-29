@@ -26,6 +26,10 @@ img {
     width: 100%;
 }
 
+.centered{
+    text-align: center;
+}
+
 /* HEADER */
 
 header {
@@ -157,6 +161,49 @@ nav a:hover {
     letter-spacing: 1px;
 }
 
+/* colored text boxes */
+/* green */
+.green {
+    background-color: #ADBCA5;
+}
+
+/* yellow */
+.yellow {
+    background-color: #FCFC62;
+}
+
+/* red */
+.red {
+    background-color: #DE2E2B;
+    color: #F7FFF7;
+}
+
+.red h2 {
+    color: rgb(204, 204, 45);
+}
+
+.red hr {
+    border-top: 1px solid rgb(204, 204, 45);
+}
+
+/* black */
+.black {
+    background-color: #3A3335;
+}
+
+.black h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.black hr{
+    border: 1px solid #FFFFFF;
+}
+
+.black p{
+    color: #F7FFF7;
+}
+
 /* hero images */
 .main-image{
     position: relative;
@@ -191,14 +238,30 @@ nav a:hover {
 .important-text p{
     font-size: 200%;
     color: #ffffff;
+    text-align: center;
     margin: 10px;
 }
 
 .important-text ul {
-    margin: 10px;
     font-size: 200%;
     color: #ffffff;
     list-style-type: none;
+}
+
+.important-text h3{
+    margin: 10px 5px;
+}
+
+.important-text li {
+    margin: 5px;
+}
+
+.important-text a {
+    color: #F7FFF7;
+}
+
+.important-text a:hover {
+    color: tan;
 }
 
 /* Main image section for home */
@@ -222,20 +285,37 @@ nav a:hover {
 }
 
 /* main image section for applications */
+#applications-main-image {
+    height: 918px;
+}
+
+#applications-image-div {
+    top: 10.5rem;
+    height: 750px;
+    background: url(../images/cnt1000x750.jpg) no-repeat center center;
+    background-color: #000;
+}
 
 /* main image section for contact */
 #contact-main-image {
-    height: 1294px;
+    height: 1248px;
 }
 
 #contact-image-div {
     top: 10.5rem;
-    height: 1126px;
+    height: 1080px;
     background: url(../images/nanopart.jpg) repeat center center;
 }
 
-/* MAIN SECTION OF HOMEPAGE */
+#contact-text{
+    top: 20%;
+}
 
+#contact{
+    top: 60%;
+}
+
+/* MAIN SECTION OF HOMEPAGE */
 /* anchor for about section */
 #about-anchor{
     position: absolute;
@@ -248,31 +328,6 @@ nav a:hover {
 
 .text-box a:hover {
     color: #343434;
-}
-
-/* colored text boxes */
-/* green */
-.green {
-    background-color: #ADBCA5;
-}
-
-/* yellow */
-.yellow {
-    background-color: #FCFC62;
-}
-
-/* red */
-.red {
-    background-color: #DE2E2B;
-    color: #F7FFF7;
-}
-
-.red h2 {
-    color: rgb(204, 204, 45);
-}
-
-.red hr {
-    border-top: 1px solid rgb(204, 204, 45);
 }
 
 /* image and caption boxes */
@@ -303,6 +358,12 @@ nav a:hover {
     padding-bottom: 100%;
     width: 100%;
     height: 0;
+}
+
+.rounded-image{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid #000000;
 }
 
 .two-image-row {
@@ -398,21 +459,7 @@ nav a:hover {
 /* intro text */
 #intro-text {
     width: 88%;
-    background-color: #3A3335;
     margin-top: 3%;
-}
-
-#intro-text h2{
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#intro-text hr{
-    border: 1px solid #FFFFFF;
-}
-
-#intro-text p{
-    color: #F7FFF7;
 }
 
 /* 0-D text */
@@ -523,8 +570,29 @@ nav a:hover {
     background-color: #FFFFFF;
 }
 
-/* footer */
+/* MAIN SECTION OF APPLICATIONS PAGE */
+/* intro */
+#robot-div{
+    margin: 0 37.5% 2% 37.5%;
+    width: 25%;
+}
 
+/* batteries */
+#batteries-images {
+    width: 80%;
+    margin: 1.5% 10%;
+}
+
+#battery-row {
+    height: auto;
+    padding-bottom: 0;
+}
+
+.applications-box{
+    padding: 4%;
+}
+
+/* footer */
 footer {
     clear: both;
     height: 10rem;
@@ -547,7 +615,7 @@ footer a {
     color: #F7FFF7;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1780px) {
     #heading-subtext {
