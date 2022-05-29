@@ -487,7 +487,7 @@ nav a:hover {
 /* individual text and image box stylings */
 /* intro text */
 #materials-intro-text {
-    width: 61%;
+    width: 60.75%;
 }
 
 /* 0-D text */
@@ -773,12 +773,20 @@ footer a {
         width: 29%;
     }
 
+    #materials-intro-text{
+        width: 63.75%;
+    }
+
     #zeroD-images, #oneD-images{
         width: 19%;
     }
 
     #twoD-images {
         width: 25%;
+    }
+
+    #applications-intro-text{
+        width: 63.75%;
     }
 
     #batteries-images{
@@ -820,7 +828,7 @@ footer a {
     }
 
     #materials-intro-text{
-        width: 74%;
+        width: 73.75%;
     }
 
     #zeroD-text, #oneD-text{
@@ -829,6 +837,10 @@ footer a {
 
     #twoD-text, #batteries-text {
         width: 38%;
+    }
+
+    #applications-intro-text{
+        width: 73.75%;
     }
 
     #flex-text {
@@ -872,15 +884,84 @@ footer a {
     #heading-subtext{
         margin: 10px 30px;
     }
+    
+    .margin-right{
+        margin-right: 5%;
+    }
+
+    .margin-left{
+        margin-left: 5%;
+    }
+
+    .margin-both{
+        margin: 1.5% 5%;
+    }
+
+    #why-nano-text{
+        width: 42%;
+    }
+
+    #how-small-is-nano-text{
+        width: 41%;
+    }
+
+    #materials-intro-text{
+        width: 83.75%;
+    }
+
+    #zeroD-text, #oneD-text{
+        width: 48%;
+    }
+
+    #twoD-text, #batteries-text {
+        width: 43%;
+    }
+
+    #applications-intro-text{
+        width: 83.75%;
+    }
+
+    #flex-text {
+        width: 38%;
+    }
+
+    #tat-text {
+        width: 36%;
+    }
+
+    #why-nano-image-div{
+        width: 32%;
+    }
+
+    #how-small-image-div{
+        width: 39%;
+    }
+
+    #zeroD-images, #oneD-images{
+        width: 29%;
+    }
+
+    #twoD-images, #batteries-images {
+        width: 35%;
+    }
+
+    #wearable-images{
+        width: 40%;
+    }
+
+    #tat-images{
+        width: 42%;
+    }
 }
 
 @media screen and (max-width: 890px){
     #heading-subtext{
         width: 40%;
     }
+    
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
     #heading-subtext {
         display: none;
     }
@@ -891,6 +972,15 @@ footer a {
 
     .text-box h2 {
         text-align: center;
+    }
+
+    #why-nano-text, #how-small-is-nano-text, #zeroD-text, #oneD-text, #twoD-text, #batteries-text, #flex-text, #tat-text, #why-nano-image-div ,#zeroD-images, 
+    #oneD-images, #twoD-images, #batteries-images, #wearable-images, #tat-images{
+        width: 83.75%;
+    }
+
+    #how-small-image-div{
+        width: 89%;
     }
 }
 
@@ -913,6 +1003,22 @@ footer a {
     #ham-nav {
         position: absolute;
         display: inline-block;
+    }
+
+    #materials-image-div {
+        top: 6.5rem;
+    }
+
+    #applications-image-div {
+        top: 6.5rem;
+    }
+
+    #contact-image-div {
+        top: 6.5rem;
+    }
+
+    #contact-main-image {
+        height: 1184px;
     }
 }
 
@@ -949,6 +1055,16 @@ footer a {
 @media screen and (max-width: 390px) {
     footer li{
         margin: 0 20px;
+    }
+
+    body {
+        font-size: 70%;
+    }
+
+    .images-circle{
+        width: 80%;
+        padding-bottom: 80%;
+        margin: 0 10%;
     }
 }
 
