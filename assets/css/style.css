@@ -26,7 +26,7 @@ img {
     width: 100%;
 }
 
-/* headings */
+/* HEADER */
 
 header {
     position: fixed;
@@ -129,62 +129,7 @@ nav a:hover {
     background-color: #948B89;
 }
 
-/* Main image section for home */
-#home-main-image {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 1000px;
-}
-
-#home-image-div {
-    width: 100%;
-    height: 1000px;
-    background: url(../images/graphene1920x1080.jpg) repeat center center;
-}
-
-#important-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    border: 5px solid #FFFF00;
-    padding: 10px;
-    background-color: rgba(66, 66, 66, 0.7)
-}
-
-#important-text h2{
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-align: center;
-    color: #ffffff;
-}
-
-/* Main image section for materials */
-#materials-main-image {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 641px;
-}
-
-#materials-image-div {
-    position: relative;
-    top: 10.5rem;
-    width: 100%;
-    height: 473px;
-    background: url(../images/buckies630x473.jpg) repeat center center;
-}
-
-/* MAIN SECTION OF HOMEPAGE */
-
-/* anchor for about section */
-#about-anchor{
-    position: absolute;
-    top: 832px;
-}
-
+/* CLASSES USED OVER PROJECT */
 /* text boxes */
 .text-box{
     clear: both;
@@ -212,6 +157,91 @@ nav a:hover {
     letter-spacing: 1px;
 }
 
+/* hero images */
+.main-image{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-image-div{
+    position: relative;
+    height: inherit;
+    width: 100%;
+}
+
+.important-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    background-color: rgba(66, 66, 66, 0.7)
+}
+
+.important-text h2{
+    font-size: 400%;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.important-text p{
+    font-size: 200%;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.important-text ul {
+    margin: 10px;
+    font-size: 200%;
+    color: #ffffff;
+    list-style-type: none;
+}
+
+/* Main image section for home */
+#home-main-image {
+    height: 1000px;
+}
+
+#home-image-div {
+    background: url(../images/graphene1920x1080.jpg) repeat center center;
+}
+
+/* Main image section for materials */
+#materials-main-image {
+    height: 641px;
+}
+
+#materials-image-div {
+    top: 10.5rem;
+    height: 473px;
+    background: url(../images/buckies630x473.jpg) repeat center center;
+}
+
+/* main image section for applications */
+
+/* main image section for contact */
+#contact-main-image {
+    height: 1294px;
+}
+
+#contact-image-div {
+    top: 10.5rem;
+    height: 1126px;
+    background: url(../images/nanopart.jpg) repeat center center;
+}
+
+/* MAIN SECTION OF HOMEPAGE */
+
+/* anchor for about section */
+#about-anchor{
+    position: absolute;
+    top: 832px;
+}
+
 .text-box a {
     color: #B0B2B8;
 }
@@ -221,14 +251,17 @@ nav a:hover {
 }
 
 /* colored text boxes */
+/* green */
 .green {
     background-color: #ADBCA5;
 }
 
+/* yellow */
 .yellow {
     background-color: #FCFC62;
 }
 
+/* red */
 .red {
     background-color: #DE2E2B;
     color: #F7FFF7;
