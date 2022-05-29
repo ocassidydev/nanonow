@@ -974,13 +974,12 @@ footer a {
         text-align: center;
     }
 
-    #why-nano-text, #how-small-is-nano-text, #zeroD-text, #oneD-text, #twoD-text, #batteries-text, #flex-text, #tat-text, #why-nano-image-div ,#zeroD-images, 
-    #oneD-images, #twoD-images, #batteries-images, #wearable-images, #tat-images{
+    #why-nano-text, #how-small-is-nano-text, #zeroD-text, #oneD-text, #twoD-text, #batteries-text, #flex-text, #tat-text{
         width: 83.75%;
     }
 
-    #how-small-image-div{
-        width: 89%;
+    #why-nano-image-div ,#zeroD-images, #oneD-images, #twoD-images, #batteries-images, #wearable-images, #tat-images{
+        width: 87%;
     }
 }
 
@@ -1019,6 +1018,19 @@ footer a {
 
     #contact-main-image {
         height: 1184px;
+    }
+
+    #materials-main-image {
+        height: 577px;
+    }
+
+    #applications-main-image {
+        height: 854px;
+    }
+
+    #robot-div {
+        margin: 2% 17.5% 2% 17.5%;
+        width: 60%;
     }
 }
 
