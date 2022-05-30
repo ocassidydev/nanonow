@@ -59,11 +59,13 @@
         <section id="contact-main-image" class="main-image">
             <div id="contact-image-div" class="main-image-div">
                 <div id="contact-div">
+                    <!-- page intro -->
                     <div id="contact-text" class="contact-important-text centered">
                         <h2>Contact</h2>
                         <p>Still have questions about the world of nanoscience, or maybe wish to collaberate? Reach out to us!</p>
                     </div>
-                    <div id="contact" class="contact-important-text">
+                    <!-- contact details -->
+                    <div id="contact" class="contact-important-text smaller-contact-box">
                         <ul>
                             <h3>Email</h3>
                             <li>
@@ -84,13 +86,15 @@
                             </li>
                         </ul>
                     </div>
-                    <div id="form" class="contact-important-text centered">
-                        <h2>Newsletter</h2>
+                    <!-- newsletter signup -->
+                    <div id="form" class="contact-important-text smaller-contact-box centered">
+                        <h3>Newsletter</h3>
                         <p>Why not sign-up to our newsletter for the latest in nanoscience?</p>
                         <form action="form-submit.html">
-                            <label for="mail">Email:</label>
-                            <input type="email" id="mail" name="email" value="">
-                            <input type="submit" value="Sign-up">
+                            <!-- for accessibility, this label is in the code, but it is set to invisible as it looks better -->
+                            <label for="email">Email:</label>
+                            <input type="email" id="mail" name="email" value="" placeholder="someone@example.com" required>
+                            <input type="submit" id="submit" value="Sign-up">
                         </form>
                     </div>
                 </div>

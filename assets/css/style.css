@@ -384,9 +384,19 @@ nav a:hover {
 
 .contact-important-text {
     position: relative;
+    top: 25%;
+    width: 40%;
+    margin: 0 29%;
     border: 5px solid #FFFF00;
     padding: 1%;
     background-color: rgba(66, 66, 66, 0.7)
+}
+
+.smaller-contact-box {
+    width: 22%;
+    padding-top: 0;
+    font-size: 90%;
+    margin: 5% 0 5% 23%;
 }
 
 .contact-important-text h2{
@@ -396,18 +406,19 @@ nav a:hover {
 }
 
 .contact-important-text p{
-    font-size: 200%;
+    font-size: 170%;
     color: #ffffff;
     margin: 10px;
 }
 
 .contact-important-text ul {
-    font-size: 200%;
+    font-size: 180%;
     color: #ffffff;
 }
 
 .contact-important-text h3{
     margin: 10px 5px;
+    color: #FFFF00;
 }
 
 .contact-important-text li {
@@ -429,21 +440,46 @@ nav a:hover {
 }
 
 #contact-text{
-    width: 40%;
-    margin: 0 28% 5% 28%;
+    width: 50%;
+    margin: 0 23%;
 }
 
 #contact{
-    width: 30%;
-    font-size: 90%;
-    margin: 5% 33%;
+    float: left;
+    margin-left: 23%;
 }
 
 #form {
-    width: 40%;
+    float: right;
+    width: 22%;
     font-size: 90%;
-    margin: 5% 28%;
+    padding-top: 0;
+    margin: 11% 23% 5% 0;
 }
+
+#form h3 {
+    font-size: 200%;
+}
+
+#form label{
+    position: absolute;
+    visibility: hidden;
+}
+
+#form input{
+    height: 30px;
+    border-radius: 2px;
+    margin: 10px 5px;
+    padding: 0 10px;
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+#mail {
+    width: 50%;
+}
+
+
 
 /* MAIN SECTION OF HOMEPAGE */
 /* anchor for about section */
