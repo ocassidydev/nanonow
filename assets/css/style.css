@@ -479,7 +479,14 @@ nav a:hover {
     width: 50%;
 }
 
+#submit{
+    background-color: #B0B2B8;
+    border: 1px solid #F7FFF7;
+}
 
+#submit:hover{
+    color: #F7FFF7;
+}
 
 /* MAIN SECTION OF HOMEPAGE */
 /* anchor for about section */
