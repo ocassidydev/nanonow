@@ -169,33 +169,6 @@ nav a:hover {
     color: #ffffff;
 }
 
-.important-text p{
-    font-size: 200%;
-    color: #ffffff;
-    margin: 10px;
-}
-
-.important-text ul {
-    font-size: 200%;
-    color: #ffffff;
-}
-
-.important-text h3{
-    margin: 10px 5px;
-}
-
-.important-text li {
-    margin: 5px;
-}
-
-.important-text a {
-    color: #F7FFF7;
-}
-
-.important-text a:hover {
-    color: tan;
-}
-
 /* text boxes */
 .text-box{
     clear: both;
@@ -409,12 +382,67 @@ nav a:hover {
     background: url(../images/nanopart.jpg) repeat center center;
 }
 
+.contact-important-text {
+    position: relative;
+    border: 5px solid #FFFF00;
+    padding: 1%;
+    background-color: rgba(66, 66, 66, 0.7)
+}
+
+.contact-important-text h2{
+    font-size: 400%;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.contact-important-text p{
+    font-size: 200%;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.contact-important-text ul {
+    font-size: 200%;
+    color: #ffffff;
+}
+
+.contact-important-text h3{
+    margin: 10px 5px;
+}
+
+.contact-important-text li {
+    margin: 5px;
+}
+
+.contact-important-text a {
+    color: #F7FFF7;
+}
+
+.contact-important-text a:hover {
+    color: tan;
+}
+
+#contact-div {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+}
+
 #contact-text{
-    top: 20%;
+    width: 40%;
+    margin: 0 28% 5% 28%;
 }
 
 #contact{
-    top: 60%;
+    width: 30%;
+    font-size: 90%;
+    margin: 5% 33%;
+}
+
+#form {
+    width: 40%;
+    font-size: 90%;
+    margin: 5% 28%;
 }
 
 /* MAIN SECTION OF HOMEPAGE */
@@ -701,14 +729,6 @@ footer a {
 
     #contact-image-div{
         font-size: 90%;
-    }
-
-    #contact-text{
-        top: 20%;
-    }
-
-    #contact {
-        top: 55%;
     }
 }
 
