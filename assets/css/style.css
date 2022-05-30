@@ -146,6 +146,12 @@ nav a:hover {
     width: 100%;
 }
 
+.zoom{
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 .main-image-div{
     position: relative;
     height: inherit;
@@ -164,7 +170,7 @@ nav a:hover {
 }
 
 .important-text h2{
-    font-size: 400%;
+    font-size: 350%;
     letter-spacing: 3px;
     color: #ffffff;
 }
@@ -750,6 +756,17 @@ footer li {
 footer a {
     text-decoration: none;
     color: #F7FFF7;
+}
+
+/* MAIN IMAGE ZOOMS */
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /* MEDIA QUERIES */
