@@ -1308,6 +1308,10 @@ footer a {
     .important-text h2{
         font-size: 200%;
     }
+
+    #applications-text {
+        font-size: 0%;
+    }
 }
 
 @media screen and (max-width: 300px){

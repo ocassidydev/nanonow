@@ -175,6 +175,7 @@ In the following table, expected results of different permutations of user input
 ### Bugs 
 
   - When the hamburger menu is active for small viewports and the page is loaded, the hamburger icon can take a moment to load in and the button is momentarily thinner that it should be. This is likely because the icon is accessed from font-awesome. A solution to avoid this could be to render the hamburger icon with 3 grey spans instead.  
+  - The applications landing page displayed poorly on mobile as the text was too wide. Fixed by reducing the font-size their specifically in a media query.
 
 ### Validator Testing 
 
