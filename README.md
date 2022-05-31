@@ -2,10 +2,11 @@
 
 [NanoNow](https://ocassidydev.github.io/nanonow/) is a science communication website that will serve as a learning resource about all things related to nanoscience. The site will be targeted towards people who are looking to learn about nanomaterials and nanotechnology. Nanonow will be useful to people without a deep scientific background who want accessible information on this topic, along with allowing a means for researchers in the field to communicate their work. 
 
+![Mockup](assets/readme_images/mockup.jpg)
+&nbsp;
 ## Features 
 
 ### Existing Features
-
 - __Navigation Bar__
 
     - Featured on each page as a fully responsive element.
@@ -13,94 +14,150 @@
     - Depending on which page the user is on, the currently active page will be highlighted in the navigation bar.
     - The site logo also serves as a navigation link to get back to the home page.
     - This will be valuable to the user as a means of navigating the site without using the back button and as an indication of where they are in the site.
+    \
+    &nbsp;
+    ![Navigation Bar](assets/readme_images/nav.png)
 
-
-
+&nbsp;
 - __Hamburger navigation bar__
 
     - Under certain screen sizes, the navigation bar on each page disappears and is replaced by a hamburger button
     - This button, coded purely in HTML/CSS, serves as a dropdown menu with all the same navigation links as the naviagtion bar.
     - Hamburger button coded to postion itself under the site logo under certain screen sizes, so that the site logo has space to be read.
     - This will be valuable to users on mobile devices to gain the same functionality as the navigation bar.
+    \
+    &nbsp;
+    ![Hamburger Navigation](assets/readme_images/hamnav.PNG)
 
+&nbsp;
+- __Page main image__
 
-
-- __The landing page image__
-
-  - The landing page includes an artistically rendered image of a nanomaterial and emphasized text which will stand out and interest the user in learning more about the topic.
+  - The top of each page includes an artistically rendered image of a nanomaterial and emphasized text which will stand out and interest the user in learning more about the topic.
+  - The text will either serve as a tagline for the landing page or contain the page title.
   - The section also includes an eye-catching animation to bring attention to this image and draw the user into the site.
+  - This feature will add value for the user by giving a visually appealing image to interest them in the content, as well as tell the user where they are in the website.
+  \
+  &nbsp;
+![Main Image](assets/readme_images/page-main-image.png)
 
+&nbsp;
+- __Text boxes__ 
 
-- __About Section__
+  - This class of div elements is designed to contain text and to be colored.
+  - They can be uniformly styled from a single class declaration in the css.
+  - This will add value to the user as they will experience a uniform yet stylistic presentation of the site's text content.
+  \
+  &nbsp;
+  ![Textbox](assets/readme_images/textbox.png)
 
-  - The about section introduces the user to the reasons why learning about nanotechnology is useful, along with a simple demonstration to appreciate the size of the nanoscale.
-  - Text is displayed in colored and stylistic text boxes.
-  - Images are displayed in figures beside the textboxes to showcase the different applications of nanotechnology and assist in the explanation.
-  - This will be valuable to the user as a visually appealing, non-intimidating layman's explanation of the topic to get the user interested in learning more and reading further into the site.
+&nbsp;
+- __Figures__
 
+  - This class of image elements is designed to contain images and caption text. 
+  - They can also be uniformly styled in the css. 
+  - This will add value to the user as they will be presented the site's image content in a uniform and semantically unambigous manner. 
+  \
+  &nbsp;
+  ![Figure](assets/readme_images/figure.png)
+
+&nbsp;
 - __The Footer__ 
 
   - The footer includes icons which serve as social media links to nanonow's various social media pages.
   - Simple font-awesome icons are used to keep this minimalistic.
   - This will be valuable to the user as a means for them to become connected with nanonow's social pages for nanotechnology news.
+  \
+  &nbsp;
+  ![Footer](assets/readme_images/footer.PNG)
 
-- __Materials Page Image__
+&nbsp;
+- __About Section__
 
-  - This serves as a headline image for the materials page. It contains a textbox that reads "MATERIALS".
-  - It has an eye-catching background image of buckminister fullerenes that is animated to grab the users attention.
-  - This will add value to the user as they will know they are on the materials page, and the visuals will intrigue them to learn more.
+  - The about section introduces the user to the reasons why learning about nanotechnology is useful, along with a simple demonstration to appreciate the size of the nanoscale.
+  - Text is displayed in colored and stylistic text boxes, with images displayed in figures beside the textboxes to showcase the different applications of nanotechnology and assist in the scale explanation.
+  - This will be valuable to the user as a visually appealing, non-intimidating layman's explanation of the topic to get the user interested in learning more and reading further into the site.
+  \
+  &nbsp;
+  ![About](assets/readme_images/about.png)
 
-
-
+&nbsp;
 - __Materials Main Section__
 
   - This page educates the user on the different types of nanomaterials that exist, how they are classified, and their properties. 
-  - Text is displayed in colored and stylistic text boxes.
-  - Images of different nanomaterials are displayed in figures beside the text boxes to supplement them.
+  - Text is displayed in colored and stylistic text boxes, with images of different nanomaterials displayed in figures to supplement them.
   - This will add value to the user as they will be able to deepen their knowledge on the topic with at an accessible level through a visually appealing webpage.
+  \
+  &nbsp;
+  ![Materials](assets/readme_images/materials.png)
 
-
-
-- __Applications Page Image__
-
-  - This serves as a headline image for the applications page. It contains a textbox that reads "APPLICATIONS".
-  - It has an eye-catching background image of a carbon-nanotube that is animated to grab the users attention.
-  - This will add value to the user as they will know they are on the applications page, and the visuals will intrigue them to learn more.
-
-![Applications Main Image](assets/readme_images/applicationsimage.PNG)
-
+&nbsp;
 - __Applications Main Section__
 
   - This page gives an overview of some of the applications of 2-D materials to electronics.
   - It written in such a way as to be as self-contained in information from the other sections as, so an interested user may immediately jump straight to it.
-  - Text is displayed in colored and stylistic text boxes.
-  - Images of the different applications are displayed in figures beside their respective textboxes.
+  - Text is displayed in colored and stylistic text boxes, with images of the different applications displayed in figures beside their respective textboxes.
   - This will add value to the user as it will excite them about futuristic technology made possible by nanoscience.
+  \
+  &nbsp;
+  ![Applications](assets/readme_images/applications.png)
 
-
+&nbsp;
 - __Contact Page__
+
+  - This page contains the contact details for nanonow, as well as a newsletter signup form. 
+  - This will add value to the user by providing them detailed information and options of how to find out more.
+  \
+  &nbsp;
+  ![Contact](assets/readme_images/contact.png)
+
+&nbsp;
 
 - __Newsletter Signup Form__
 
+   - This form takes the users email to put them on a mailing list for nanotechnology news.
+   - The form is written in such a way to accomodate a call to action for the user to provide their email address.
+   - This will add value to the user by giving them a means of being regularly updated about this field.
+  \
+  &nbsp;
+  ![Newsletter](assets/readme_images/signup.PNG)
+
+&nbsp;
+
 - __Newsletter Submission Page__
 
+  - The user is navigated to this page on submitting the newsletter.
+  - There is an anchor tag to navigate back to the home page.
+  - This will add value to the user as they will have a clear indication that their email was submitted, along with being informed what to expect next. It also gives a straightforward means for them to navigate back into the site. 
+  \
+  &nbsp;
+  ![Submission](assets/readme_images/thanks.PNG)
+
+&nbsp;
 ### Features Left to Implement
+
+&nbsp;
 
 ***About in nav-bar appearance***
 
 One feature that I wanted to implement was a means of the about button in the navigation bar to change to the active color when scrolling down past a certain point of the landing page, so it would look like this: 
 
+![AboutBar](assets/readme_images/aboutbar.PNG)
+
 However as far as I have checked querying how far the user is scrolled down the page is only possible to do with javascript, which is outside of the scope of the module.
+
+&nbsp;
 
 ***News Page***
 
 I also wanted to add a page containing a widget that could scrub social media for mentions of nanotechnology using some kind of API, and then display them as a scrollable element. However this is much too complicated for the current point I am at in the course.
 
+&nbsp;
+
 ## Testing 
-
 ### Navigation Bars
+\
+&nbsp;
 **Navigation Bar**
-
 - The following table goes through each button on the navigation bar, with columns detailing what the button should do when clicked, what it does when clicked, and a check to validate whether these buttons can be considered working or not. Each button was checked individually on each page.
 
 |Button on bar      |Expected Behavior                      |What Occurs                            |Working as intended?   |
@@ -110,6 +167,9 @@ I also wanted to add a page containing a widget that could scrub social media fo
 |Applications       |Navigates to applications.html         |Navigates to applications.html         |✔                     |
 |About              |Navigates to about anchor in index.html|Navigates to about anchor in index.html|✔                     |
 |Contact            |Navigates to contact.html              |Navigates to contact.html              |✔                     |
+
+\
+&nbsp;
 
 **Hamburger Navigation Bar**
 
@@ -124,7 +184,12 @@ I also wanted to add a page containing a widget that could scrub social media fo
 |About              |Navigates to about anchor in index.html|Navigates to about anchor in index.html|✔                     |
 |Contact            |Navigates to contact.html              |Navigates to contact.html              |✔                     |
 
+\
+&nbsp;
+
 ### Links
+
+&nbsp;
 
 **Links in Footer page**
 
@@ -137,6 +202,9 @@ These were checked across each page of the website.
 |Twitter                                |Opens [Twitter](https://www.twitter.com/) in new tab   |Opens [Twitter](https://www.twitter.com/) in new tab   |✔                     |
 |LinkedIn                               |Opens [LinkedIn](https://www.linkedin.com/) in new tab |Opens [LinkedIn](https://www.linkedin.com/) in new tab |✔                     |
 
+
+&nbsp;
+
 **Links in Materials page**
 
 |Link                                   |Expected Behavior                      |What Occurs                            |Working as intended?   |
@@ -144,6 +212,8 @@ These were checked across each page of the website.
 |NANONOW (page logo)                    |Navigates to index.html in same tab    |Navigates to index.html in same tab    |✔                     |
 |"There's plenty of room at the bottom" |Opens [wikipedia page](https://en.wikipedia.org/wiki/There%27s_Plenty_of_Room_at_the_Bottom) in new tab|Opens [wikipedia page](https://en.wikipedia.org/wiki/There%27s_Plenty_of_Room_at_the_Bottom) in new tab|✔                     |
 |materials                              |Navigates to materials.html in same tab|Navigates to materials.html in same tab|✔                     |
+
+&nbsp;
 
 **Links in Applications page**
 
@@ -153,12 +223,16 @@ These were checked across each page of the website.
 |Yael Hanein Lab (in Tatoo Electronics) |Opens [Yael Hanein's](https://nano.tau.ac.il/hanein/index.php/projects/tattoo-semg) webpage in new tab|Opens [Yael Hanein's](https://nano.tau.ac.il/hanein/index.php/projects/tattoo-semg) webpage in new tab|✔                     |
 |Yael Hanein Lab (in figure caption)    |Opens [Yael Hanein's](https://nano.tau.ac.il/hanein/index.php/projects/tattoo-semg) webpage in new tab|Opens [Yael Hanein's](https://nano.tau.ac.il/hanein/index.php/projects/tattoo-semg) webpage in new tab|✔                     |
 
+&nbsp;
+
 **Links in Contact page**
 
 |Link                                   |Expected Behavior                      |What Occurs                            |Working as intended?   |
 |:--------------------------------------|:--------------------------------------|:--------------------------------------|:---------------------:|
 |NANONOW (page logo)                    |Navigates to index.html in same tab    |Navigates to index.html in same tab    |✔                     |
 |info@nanonow.com                       |Opens email prompt in browser          |Opens email prompt in browser          |✔                     |
+
+&nbsp;
 
 ### Newsletter signup form 
 
@@ -170,14 +244,19 @@ In the following table, expected results of different permutations of user input
 |Enter non-email text in field, hit submit|"Please enter an email address" browser prompt |"Please enter an email address" browser prompt|✔                     |
 |Enter email in field, hit submit         |Directed to form-submit.html                   |Directed to form-submit.html                  |✔                     |
 
-### Different viewports
+&nbsp;
 
+### Different viewports
+Throughout the project, the appearance of the website was checked using firefox dev tools set devices. I also quickly browsed through the finished site on my phone.
+
+&nbsp;
 ### Bugs 
 
   - When the hamburger menu is active for small viewports and the page is loaded, the hamburger icon can take a moment to load in and the button is momentarily thinner that it should be. This is likely because the icon is accessed from font-awesome. A solution to avoid this could be to render the hamburger icon with 3 grey spans instead.  
   - Low contrast between background of figures and the hamburger menu on small viewport sizes. Put a border on the bottom of the hamburger button to make distinction clearer.
   - The applications landing page displayed poorly on mobile as the text was too wide.
 
+&nbsp;
 ### Validator Testing 
 
 - HTML
@@ -185,12 +264,13 @@ In the following table, expected results of different permutations of user input
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Focassidydev.github.io%2Fnanonow%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+&nbsp;
 ### Unfixed Bugs
 
    - Bug where hamburger icon fails to load in quick enough on page load.
-   - Bug where the applications page title takes up too much width on small viewports. Fixing this would require changing multiple class declarations across a number of media queries, was too overwhelming when it was identified.
    - Some pages on the site have a lower than desired lighthouse performance score (materials - 88, applications - 78). This is likely due to the quantity of images in the site and a lack of complete optimisation of image formats. This may cause slower loading times.
 
+&nbsp;
 ## Deployment
 
 - This project was deployed through github pages at this [link](https://ocassidydev.github.io/nanonow/contact.html), using the following steps:
@@ -200,11 +280,13 @@ In the following table, expected results of different permutations of user input
   - On the drop down menu that read "none", clicked and changed to "main"
   - Clicked save
 
+&nbsp;
+
 - For local deployment, run the following command:
 
       git clone https://github.com/ocassidydev/nanonow.git
 
-
+&nbsp;
 ## Credits 
 
 ### Code
@@ -214,12 +296,14 @@ In the following table, expected results of different permutations of user input
 - A number of individual queries and fixes were sought on [Stack Overflow](https://stackoverflow.com/).
 - For refreshing certain concepts and documentations, I used [W3S Schools](https://www.w3schools.com/).
 
+&nbsp;
 ### Content 
 
 - Inspiration was taken from [nano.gov](https://www.nano.gov/about-nanotechnology/applications-nanotechnology) and [Wikipedia's Applications of Nanotechnology page](https://en.wikipedia.org/wiki/Applications_of_nanotechnology) to populate the site content.
 - I used various wikipedia pages on the topic to check my knowledge as I was entering content.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
+&nbsp;
 ### Media
 
 The following lists each image by their name in the /assets/images folder, with a link to the site they were taken from. Where possible, they are listed in order of appearance.
