@@ -1,8 +1,6 @@
 # NanoNow
 
-NanoNow is a science communication website that will serve as a learning resource about all things related to nanoscience. The site will be targeted towards people who are looking to learn about nanomaterials and nanotechnology. Nanonow will be useful to people without a deep scientific background who want accessible information on this topic, along with allowing a means for researchers in the field to communicate their work. 
-
-
+[NanoNow](https://ocassidydev.github.io/nanonow/) is a science communication website that will serve as a learning resource about all things related to nanoscience. The site will be targeted towards people who are looking to learn about nanomaterials and nanotechnology. Nanonow will be useful to people without a deep scientific background who want accessible information on this topic, along with allowing a means for researchers in the field to communicate their work. 
 
 ## Features 
 
@@ -16,7 +14,7 @@ NanoNow is a science communication website that will serve as a learning resourc
     - The site logo also serves as a navigation link to get back to the home page.
     - This will be valuable to the user as a means of navigating the site without using the back button and as an indication of where they are in the site.
 
-![Nav Bar](assets/readme_images/navbar.PNG)
+
 
 - __Hamburger navigation bar__
 
@@ -25,16 +23,13 @@ NanoNow is a science communication website that will serve as a learning resourc
     - Hamburger button coded to postion itself under the site logo under certain screen sizes, so that the site logo has space to be read.
     - This will be valuable to users on mobile devices to gain the same functionality as the navigation bar.
 
-![Hamburger](assets/readme_images/hamburger.PNG)
-![Hamburger2](assets/readme_images/hamburger2.PNG)
-![Hamburger3](assets/readme_images/hamburger3.PNG)
+
 
 - __The landing page image__
 
   - The landing page includes an artistically rendered image of a nanomaterial and emphasized text which will stand out and interest the user in learning more about the topic.
   - The section also includes an eye-catching animation to bring attention to this image and draw the user into the site.
 
-![Landing Page](assets/readme_images/landing-page.PNG)
 
 - __About Section__
 
@@ -43,17 +38,11 @@ NanoNow is a science communication website that will serve as a learning resourc
   - Images are displayed in figures beside the textboxes to showcase the different applications of nanotechnology and assist in the explanation.
   - This will be valuable to the user as a visually appealing, non-intimidating layman's explanation of the topic to get the user interested in learning more and reading further into the site.
 
-![About](assets/readme_images/about.PNG)
-![About2](assets/readme_images/about2.PNG)
-![About3](assets/readme_images/about3.PNG)
-
 - __The Footer__ 
 
   - The footer includes icons which serve as social media links to nanonow's various social media pages.
   - Simple font-awesome icons are used to keep this minimalistic.
   - This will be valuable to the user as a means for them to become connected with nanonow's social pages for nanotechnology news.
-
-![Footer](assets/readme_images/footer.PNG)
 
 - __Materials Page Image__
 
@@ -61,7 +50,7 @@ NanoNow is a science communication website that will serve as a learning resourc
   - It has an eye-catching background image of buckminister fullerenes that is animated to grab the users attention.
   - This will add value to the user as they will know they are on the materials page, and the visuals will intrigue them to learn more.
 
-![Materials Page Image](assets/readme_images/materialsimage.PNG)
+
 
 - __Materials Main Section__
 
@@ -70,15 +59,7 @@ NanoNow is a science communication website that will serve as a learning resourc
   - Images of different nanomaterials are displayed in figures beside the text boxes to supplement them.
   - This will add value to the user as they will be able to deepen their knowledge on the topic with at an accessible level through a visually appealing webpage.
 
-![Materials](assets/readme_images/materials.PNG)
-![Materials2](assets/readme_images/materials1.PNG)
-![Materials2](assets/readme_images/materials2.PNG)
-![Materials3](assets/readme_images/materials3.PNG)
-![Materials4](assets/readme_images/materials4.PNG)
-![Materials5](assets/readme_images/materials5.PNG)
-![Materials6](assets/readme_images/materials6.PNG)
-![Materials7](assets/readme_images/materials7.PNG)
-![Materials8](assets/readme_images/materials8.PNG)
+
 
 - __Applications Page Image__
 
@@ -96,11 +77,6 @@ NanoNow is a science communication website that will serve as a learning resourc
   - Images of the different applications are displayed in figures beside their respective textboxes.
   - This will add value to the user as it will excite them about futuristic technology made possible by nanoscience.
 
-![Applications](assets/readme_images/applications.PNG)
-![Applications2](assets/readme_images/applications2.PNG)
-![Applications3](assets/readme_images/applications3.PNG)
-![Applications4](assets/readme_images/applications4.PNG)
-![Applications5](assets/readme_images/applications5.PNG)
 
 - __Contact Page__
 
@@ -206,7 +182,17 @@ These were checked across each page of the website.
 
 ## Deployment
 
-- This project was deployed through github pages. The link: 
+- This project was deployed through github pages, using the following steps:
+
+  - From the github repository, navigated to settings
+  - Clicked on "Pages" 
+  - On the drop down menu that read "none", clicked and changed to "main"
+  - Clicked save
+
+- For local deployment, run the following command:
+
+    git clone https://github.com/ocassidydev/nanonow.git
+
 
 ## Credits 
 
@@ -242,7 +228,7 @@ The following lists each image by their name in the /assets/images folder, with 
 - __Materials page__
   - buckies - https://www.chemistryworld.com/news/buckyballs-prove-to-be-a-magnetic-proposition-for-copper/8833.article
 
-  - metalnp - [Anton Paar](https://www.anton-paar.com/se-en/products/applications/size-and-shape-of-gold-nanoparticles-in-toluene-via-saxs/)
+  - metalnanoparticle - [Anton Paar](https://www.anton-paar.com/se-en/products/applications/size-and-shape-of-gold-nanoparticles-in-toluene-via-saxs/)
   - buckyball - [Buckminister Fuller Institute](https://www.bfi.org/about-fuller/big-ideas/buckminsterfullerene/)
   - liposome - [Skeptical Raptor](https://www.skepticalraptor.com/skepticalraptorblog.php/lipid-nanoparticles-in-covid-19-mrna-vaccines-ican-fails-science/)
 
@@ -252,8 +238,8 @@ The following lists each image by their name in the /assets/images folder, with 
 
   - graphenesheet - [AZO Materials](https://www.azom.com/article.aspx?ArticleID=21100)
   - graphenefootball - [Ossilia](https://www.ossila.com/pages/introduction-2d-materials)
-  - bn - [Ossilia](https://www.ossila.com/products/hexagonal-boron-nitride)
-  - mos2 - [Ossilia](https://www.ossila.com/en-eu/pages/molybdenum-disulfide-mos2)
+  - boronnitride - [Ossilia](https://www.ossila.com/products/hexagonal-boron-nitride)
+  - molybdenumdisulfide - [Ossilia](https://www.ossila.com/en-eu/pages/molybdenum-disulfide-mos2)
 
 - __Applications page__
   - cnt - [Investment Castings](https://www.investment-castings.net/what-are-carbon-nanotubes-and-why-should-you-care/)
@@ -261,16 +247,16 @@ The following lists each image by their name in the /assets/images folder, with 
   - robot - [Medical Device Network](https://www.medicaldevice-network.com/comment/nanotechnology-medicine-technology/)
 
   - graphenebattery - [AZO Materials](https://www.azom.com/article.aspx?ArticleID=21103) 
-  - flexbattery - [](https://phandroid.com/2012/08/06/this-flexible-battery-could-soon-be-powering-our-flexible-android-devices-video/)
+  - flexbattery - [Phandroid](https://phandroid.com/2012/08/06/this-flexible-battery-could-soon-be-powering-our-flexible-android-devices-video/)
 
-  - skindisplay - https://spectrum.ieee.org/skin-displays-will-give-wearables-their-independence
-  - wearable - https://spie.org/news/wearable-photonics?SSO=1
+  - skindisplay - [Institute of Electrical and Electronics Engineers](https://spectrum.ieee.org/skin-displays-will-give-wearables-their-independence)
+  - wearable - [The International Society for Optics and Photonics](https://spie.org/news/wearable-photonics?SSO=1)
   
-  - nanotattoo - https://nano.tau.ac.il/hanein/index.php/projects/tattoo-semg
-  - armphone - https://blog.teamtrade.cz/crumpled-carbon-nanotube-forests-lead-to-wearable-tech/
+  - nanotattoo - [Yael Hanein Lab](https://nano.tau.ac.il/hanein/index.php/projects/tattoo-semg)
+  - armphone - [Team Trade](https://blog.teamtrade.cz/crumpled-carbon-nanotube-forests-lead-to-wearable-tech/)
 
 - __Contact page__
-  - 
+  - nanopart - [Bioleagues Worldwide's Twitter](https://twitter.com/bioleagues/status/975606779533869056)
 
 
 
