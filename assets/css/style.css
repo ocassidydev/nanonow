@@ -470,11 +470,6 @@ nav a:hover {
     font-size: 200%;
 }
 
-#form label{
-    position: absolute;
-    visibility: hidden;
-}
-
 #form input{
     height: 30px;
     border-radius: 2px;
