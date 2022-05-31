@@ -284,8 +284,9 @@ nav a:hover {
     border: 1px solid #000;
     border-radius: 5px;
     font-style: italic;
+    font-size: 110%;
     letter-spacing: 1px;
-    padding: 1%;
+    padding: 2.5%;
     background-color: white;
 }
 
@@ -341,6 +342,7 @@ nav a:hover {
 
 .margin-both {
     margin: 1.5% 16.5%;
+    width: 60.75%
 }
 
 /* HERO IMAGE SECTION OF EACH PAGE */
@@ -394,6 +396,7 @@ nav a:hover {
     width: 40%;
     margin: 0 29%;
     border: 5px solid #FFFF00;
+    border-radius: 10px;
     padding: 1%;
     background-color: rgba(66, 66, 66, 0.7)
 }
@@ -482,7 +485,7 @@ nav a:hover {
 }
 
 #mail {
-    width: 50%;
+    width: 60%;
 }
 
 #submit{
@@ -531,6 +534,10 @@ nav a:hover {
     width: 44%;
 }
 
+.images-column {
+    padding: 3% 0;
+}
+
 .column-image-box h3{
     position: relative;
     width: 100%;
@@ -540,7 +547,7 @@ nav a:hover {
 }
 
 .column-image-box p {
-    margin: 0 8%;
+    margin: 5px 8% 10px 8%;
 }
 
 /* images within circle */
@@ -561,16 +568,17 @@ nav a:hover {
 }
 
 /* MAIN SECTION OF MATERIALS PAGE */
-/* individual text and image box stylings */
-/* intro text */
-#materials-intro-text {
-    width: 60.75%;
+.material-circle{
+    width: 70%;
+    padding-bottom: 70%;
+    margin: 0 15%;
 }
+
+/* individual text and image box stylings */
 
 /* 0-D text */
 #zeroD-text {
     width: 35%;
-    padding: 2% 3%;
 }
 
 /* 0-D images */
@@ -579,12 +587,6 @@ nav a:hover {
     width: 16.35%;
     padding: 0.5% 1.5%;
 }
-
-.zeroD-material-circle{
-    width: 60%;
-    padding-bottom: 60%;
-    margin: 0 20%;
-} 
 
 /* 1-D text */
 #oneD-text {
@@ -596,13 +598,6 @@ nav a:hover {
 #oneD-images{
     float: left;
     width: 16.35%;
-    padding: 1.5%;
-}
-
-.oneD-material-circle{
-    width: 80%;
-    padding-bottom: 80%;
-    margin: 0 10%;
 }
 
 /* 2-D text */
@@ -619,21 +614,11 @@ nav a:hover {
     margin-bottom: 3%;
 }
 
-.twoD-material-circle {
-    width: 70%;
-    padding-bottom: 70%;
-    margin: 0 15%;
-}
-
 /* MAIN SECTION OF APPLICATIONS PAGE */
 /* intro */
-#applications-intro-text {
-    width: 60.75%;
-}
-
 #robot-div{
-    margin: 2% 35% 2% 35%;
-    width: 30%;
+    margin: 2% 30% 2% 30%;
+    width: 40%;
 }
 
 /* batteries */
@@ -727,38 +712,26 @@ footer a {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1800px) {
-    main{
-        font-size: 90%;
-    }
-}
 
 @media screen and (max-width: 1700px) {
-    main{
-        font-size: 80%;
-    }
-}
-
-@media screen and (max-width: 1500px) {
-    main{
-        font-size: 70%;
-    }
-
-    #contact-image-div{
-        font-size: 90%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
     .margin-right{
-        margin-left: 1.5%;
+        margin-right: 15%;
     }
 
     .margin-left{
-        margin-right: 1.5%;
+        margin-left: 15%;
     }
 
-    #why-nano-text{
+    .margin-both{
+        margin: 1.5% 15%;
+        width: 63.75%;
+    }
+
+    .text-box {
+        padding: 1% 3%;
+    }
+
+    #why-nano-text {
         width: 32%;
     }
 
@@ -781,25 +754,23 @@ footer a {
     #tat-text {
         width: 26%;
     }
+    
 }
 
-@media screen and (max-width: 1300px) {
-    .text-box p{
-        margin: 15px 0;
+@media screen and (max-width: 1550px) {
+    #mail {
+        width: 70%;
     }
 }
 
-@media screen and (max-width: 1220px) {
+
+@media screen and (max-width: 1500px) {
     .margin-right{
-        margin-right: 15%;
+        margin-left: 1.5%;
     }
 
     .margin-left{
-        margin-left: 15%;
-    }
-
-    .margin-both{
-        margin: 1.5% 15%;
+        margin-right: 1.5%;
     }
 
     #why-nano-image-div{
@@ -810,20 +781,16 @@ footer a {
         width: 29%;
     }
 
-    #materials-intro-text{
-        width: 63.75%;
+    #zeroD-images {
+        width: 19%;
     }
 
-    #zeroD-images, #oneD-images{
-        width: 19%;
+    #oneD-images{
+        width: 20%;
     }
 
     #twoD-images {
         width: 25%;
-    }
-
-    #applications-intro-text{
-        width: 63.75%;
     }
 
     #batteries-images{
@@ -839,55 +806,24 @@ footer a {
     }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1400px) {
+    main {
+        font-size: 90%;
+    }
+    
     .margin-right{
-        margin-right: 10%;
+        margin-right: 12.5%;
     }
 
     .margin-left{
-        margin-left: 10%;
+        margin-left: 12.5%;
     }
 
     .margin-both{
-        margin: 1.5% 10%;
+        margin: 1.5% 12.5%;
+        width: 68.75%;
     }
 
-    main {
-        font-size: 80%;
-    }
-
-    #why-nano-text {
-        width: 35%;
-    }
-
-    #how-small-is-nano-text{
-        width: 36%;
-    }
-
-    #materials-intro-text{
-        width: 73.75%;
-    }
-
-    #zeroD-text, #oneD-text{
-        width: 43%;
-    }
-
-    #twoD-text, #batteries-text {
-        width: 38%;
-    }
-
-    #applications-intro-text{
-        width: 73.75%;
-    }
-
-    #flex-text {
-        width: 33%;
-    }
-
-    #tat-text {
-        width: 31%;
-    }
-    
     #why-nano-image-div{
         width: 27%;
     }
@@ -896,8 +832,12 @@ footer a {
         width: 34%;
     }
 
-    #zeroD-images, #oneD-images{
+    #zeroD-images{
         width: 24%;
+    }
+
+    #oneD-images{
+        width: 25%;
     }
 
     #twoD-images {
@@ -917,53 +857,44 @@ footer a {
     }
 }
 
-@media screen and (max-width: 1040px){
-    #heading-subtext{
-        margin: 10px 30px;
-    }
-    
-    .margin-right{
-        margin-right: 5%;
+@media screen and (max-width: 1300px) {
+    #twoD-text {
+        width: 36%;
     }
 
-    .margin-left{
-        margin-left: 5%;
+    #twoD-images {
+        width: 27%;
     }
 
-    .margin-both{
-        margin: 1.5% 5%;
+    #batteries-text {
+        width: 37%;
     }
 
-    #why-nano-text{
-        width: 42%;
-    }
-
-    #how-small-is-nano-text{
-        width: 41%;
-    }
-
-    #materials-intro-text{
-        width: 83.75%;
-    }
-
-    #zeroD-text, #oneD-text{
-        width: 48%;
-    }
-
-    #twoD-text, #batteries-text {
-        width: 43%;
-    }
-
-    #applications-intro-text{
-        width: 83.75%;
-    }
-
-    #flex-text {
-        width: 38%;
+    #batteries-images {
+        width: 26%;
     }
 
     #tat-text {
-        width: 36%;
+        width: 33%;
+    }
+
+    #tat-images {
+        width: 30%;
+    } 
+}
+
+@media screen and (max-width: 1200px) {
+    .margin-right{
+        margin-right: 10%;
+    }
+
+    .margin-left{
+        margin-left: 10%;
+    }
+
+    .margin-both{
+        margin: 1.5% 10%;
+        width: 73.75%;
     }
 
     #why-nano-image-div{
@@ -974,12 +905,20 @@ footer a {
         width: 39%;
     }
 
-    #zeroD-images, #oneD-images{
+    #zeroD-images{
         width: 29%;
     }
+    
+    #oneD-images{
+        width: 30%;
+    }
 
-    #twoD-images, #batteries-images {
-        width: 35%;
+    #twoD-images {
+        width: 32%;
+    }
+
+    #batteries-images{
+        width: 31%;
     }
 
     #wearable-images{
@@ -987,7 +926,180 @@ footer a {
     }
 
     #tat-images{
-        width: 42%;
+        width: 35%;
+    }
+    
+    #contact {
+        width: 50%;
+        margin: 5% 23%;
+    }
+
+    #form {
+        width: 50%;
+        margin: 5% 24%;
+    }
+
+    #heading-subtext{
+        margin: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .material-circle {
+        margin: 5% 15%;
+    }
+
+    .margin-right{
+        margin-right: 7.5%;
+    }
+
+    .margin-left{
+        margin-left: 7.5%;
+    }
+
+    .margin-both{
+        margin: 1.5% 7.5%;
+        width: 78.75%;
+    }
+
+    #why-nano-image-div{
+        width: 37%;
+    }
+
+    #how-small-image-div{
+        width: 44%;
+    }
+
+    #zeroD-images, #oneD-images{
+        width: 34%;
+    }
+
+    #twoD-images {
+        width: 37%;
+    }
+
+    #batteries-images{
+        width: 36%;
+    }
+
+    #wearable-images{
+        width: 45%;
+    }
+
+    #tat-images{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .image-in-box-column {
+        width: 54%;
+    }
+
+    #why-nano-text {
+        width: 36%;
+    }
+
+    #why-nano-image-div {
+        width: 33%;
+    }
+
+    #zeroD-text {
+        width: 41%;
+    }
+
+    #zeroD-images {
+        width: 31%;
+    }
+
+    #twoD-text {
+        width: 39%;
+    }
+
+    #twoD-images {
+        width: 34%;
+        padding: 3% 1%;
+    }
+
+    #batteries-text {
+        width: 43%;
+    }
+
+    #batteries-images {
+        width: 30%;
+    }
+
+    #flex-text{
+        width: 34%;
+    }
+
+    #wearable-images{
+        width: 39%
+    }
+
+    #tat-text {
+        width: 38%;
+    }
+
+    #tat-images {
+        width: 35%;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .margin-right{
+        margin-right: 5%;
+    }
+
+    .margin-left{
+        margin-left: 5%;
+    }
+
+    .margin-both{
+        margin: 1.5% 5%;
+        width: 83.75%;
+    }
+
+    #why-nano-image-div {
+        width: 38%;
+    }
+
+    #how-small-image-div{
+        width: 49%;
+    }
+
+    #zeroD-images {
+        width: 36%;
+    }
+    
+    #oneD-images{
+        width: 40%;
+    }
+
+    #twoD-images {
+        width: 39%;
+    }
+
+    #batteries-images {
+        width: 35%;
+    }
+
+    #wearable-images{
+        width: 44%
+    }
+
+    #tat-images {
+        width: 40%;
+    } 
+}
+
+@media screen and (max-width: 950px){
+    #how-small-is-nano-text {
+        width: 42.5%;
+    }
+
+    #how-small-image-div {
+        width: 37.5%;
     }
 }
 
@@ -998,7 +1110,7 @@ footer a {
     
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 795px) {
     #heading-subtext {
         display: none;
     }
@@ -1015,14 +1127,53 @@ footer a {
         width: 83.75%;
     }
 
-    #why-nano-image-div ,#zeroD-images, #oneD-images, #twoD-images, #batteries-images, #wearable-images, #tat-images{
-        width: 87%;
+    #why-nano-image-div, #twoD-images, #batteries-images{
+        width: 83.5%;
     }
 
-    .oneD-material-circle {
+    #how-small-image-div {
+        width: 90%;
+    }
+
+    #how-small-image-div h3 {
+        font-size: 200%;
+        margin-bottom: 10px;
+    }
+
+    .images-circle {
         width: 60%;
         padding-bottom: 60%;
         margin: 0 20%;
+    }
+
+    #zeroD-images {
+        width: 86%;
+    }
+
+    #oneD-images, #twoD-images, #batteries-images, #wearable-images, #tat-images {
+        width: 87%;
+    }
+
+    .material-circle {
+        width: 50%;
+        padding-bottom: 50%;
+        margin: 20px 25%;
+    }
+
+    .applications-box {
+        width: 80%;
+        margin: 0 9%;
+        padding: 1%;
+    }
+
+    .image-and-caption p {
+        margin-top: 5px;
+    }
+
+
+    .wearables {
+        width: 100%;
+        margin: 0;
     }
 }
 
@@ -1082,7 +1233,44 @@ footer a {
         margin: 0 30px;
     }
 
+    #contact-text h2 {
+        font-size: 300%;
+    }
+
+    #contact-div {
+        font-size: 80%;
+    }
+
+    #thank-text {
+        font-size: 80%;
+    }
 }
+
+@media screen and (max-width: 500px) {
+    #contact-text {
+        width: 70%;
+        margin: 5% 13%;
+    }
+
+    #contact {
+        width: 70%;
+        margin: 5% 13%;
+    }
+
+    #thank-text {
+        width: 70%;
+        margin: 0 13%;
+    }
+
+    #form {
+        width: 70%;
+        margin: 5% 13%;
+    }
+}
+
+/* @media screen and (max-width: 300px) {
+    #contact
+} */
 
 @media screen and (max-width: 450px){
     #heading{
@@ -1113,13 +1301,17 @@ footer a {
     }
 
     body {
-        font-size: 70%;
+        font-size: 90%;
     }
 
     .images-circle{
         width: 80%;
         padding-bottom: 80%;
         margin: 0 10%;
+    }
+
+    .important-text h2{
+        font-size: 200%;
     }
 }
 
@@ -1131,6 +1323,28 @@ footer a {
     footer li{
         margin: 0 10px;
     }
+
+    #form input {
+        font-size: 100%;
+    }
+
+    .text-box h2 {
+        font-size: 200%;
+    }
+
+    #thank-text h2{
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width:240px) {
+    #contact-text h2, #thank-text h2 {
+        font-size: 200%;
+    }
+    
+    #contact li {
+        font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 210px){
@@ -1140,6 +1354,14 @@ footer a {
 
     footer li{
         margin: 0 5px;
+    }
+
+    #heading {
+        font-size: 150%;
+    }
+
+    .important-text h2{
+        font-size: 150%;
     }
 }
 
