@@ -2,7 +2,7 @@
 
 [NanoNow](https://ocassidydev.github.io/nanonow/) is a science communication website that will serve as a learning resource about all things related to nanoscience. The site will be targeted towards people who are looking to learn about nanomaterials and nanotechnology. Nanonow will be useful to people without a deep scientific background who want accessible information on this topic, along with allowing a means for researchers in the field to communicate their work. 
 
-![Mockup](assets/readme_images/mockup.jpg)
+![Mockup](assets/readme_images/mockup.png)
 &nbsp;
 ## Features 
 
@@ -130,7 +130,7 @@
   - This will add value to the user as they will have a clear indication that their email was submitted, along with being informed what to expect next. It also gives a straightforward means for them to navigate back into the site. 
   \
   &nbsp;
-  ![Submission](assets/readme_images/thanks.PNG)
+  ![Submission](assets/readme_images/thanks.png)
 
 &nbsp;
 ### Features Left to Implement
@@ -255,6 +255,7 @@ Throughout the project, the appearance of the website was checked using firefox 
   - When the hamburger menu is active for small viewports and the page is loaded, the hamburger icon can take a moment to load in and the button is momentarily thinner that it should be. This is likely because the icon is accessed from font-awesome. A solution to avoid this could be to render the hamburger icon with 3 grey spans instead.  
   - Low contrast between background of figures and the hamburger menu on small viewport sizes. Put a border on the bottom of the hamburger button to make distinction clearer.
   - The applications landing page displayed poorly on mobile as the text was too wide.
+  - On some small viewports the homepage headline text would not display well.
 
 &nbsp;
 ### Validator Testing 
@@ -269,7 +270,7 @@ Throughout the project, the appearance of the website was checked using firefox 
 
    - Bug where hamburger icon fails to load in quick enough on page load.
    - Some pages on the site have a lower than desired lighthouse performance score (materials - 88, applications - 78). This is likely due to the quantity of images in the site and a lack of complete optimisation of image formats. This may cause slower loading times.
-
+   
 &nbsp;
 ## Deployment
 
