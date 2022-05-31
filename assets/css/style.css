@@ -586,18 +586,6 @@ nav a:hover {
     margin: 0 20%;
 } 
 
-#metal-np{
-    position: relative;
-    right: 20%;
-    width: 180%;
-}
-
-#liposome {
-    position: relative;
-    right: 4%;
-    width: 110%;
-}
-
 /* 1-D text */
 #oneD-text {
     float: right;
@@ -615,16 +603,6 @@ nav a:hover {
     width: 80%;
     padding-bottom: 80%;
     margin: 0 10%;
-}
-
-#nanowire {
-    width: 135%;
-}
-
-#dna {
-    position: relative;
-    right: 20%;
-    width: 180%;
 }
 
 /* 2-D text */
@@ -645,27 +623,6 @@ nav a:hover {
     width: 70%;
     padding-bottom: 70%;
     margin: 0 15%;
-}
-
-#graphene {
-    position: relative;
-    right: 10%;
-    width: 175%;
-}
-
-#football{
-    position: relative;
-}
-
-#bn {
-    position: relative;
-    right: 35%;
-    width: 180%;
-}
-
-#mos2 {
-    width: 100%;
-    background-color: #FFFFFF;
 }
 
 /* MAIN SECTION OF APPLICATIONS PAGE */
@@ -1060,6 +1017,12 @@ footer a {
 
     #why-nano-image-div ,#zeroD-images, #oneD-images, #twoD-images, #batteries-images, #wearable-images, #tat-images{
         width: 87%;
+    }
+
+    .oneD-material-circle {
+        width: 60%;
+        padding-bottom: 60%;
+        margin: 0 20%;
     }
 }
 
