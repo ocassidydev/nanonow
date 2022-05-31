@@ -162,6 +162,14 @@ These were checked across each page of the website.
 
 ### Newsletter signup form 
 
+In the following table, expected results of different permutations of user input on the form were attempted and the results were recorded.
+
+|Permutation                              |Expected Behavior                              |What Occurs                                   |Working as intended?   |
+|:----------------------------------------|:----------------------------------------------|:---------------------------------------------|:---------------------:|
+|Enter no text in field, hit submit       |"Please fill out this field" browser prompt    |"Please fill out this field" browser prompt   |✔                     |
+|Enter non-email text in field, hit submit|"Please enter an email address" browser prompt |"Please enter an email address" browser prompt|✔                     |
+|Enter email in field, hit submit         |Directed to form-submit.html                   |Directed to form-submit.html                  |✔                     |
+
 ### Different viewports
 
 ### Bugs 
@@ -171,9 +179,9 @@ These were checked across each page of the website.
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Focassidydev.github.io%2Fnanonow%2Findex.html), with exception to one warning regarding the use of a label in an anchor tag (which was necessary for it to work as intended)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Focassidydev.github.io%2Fnanonow%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
