@@ -175,7 +175,8 @@ In the following table, expected results of different permutations of user input
 ### Bugs 
 
   - When the hamburger menu is active for small viewports and the page is loaded, the hamburger icon can take a moment to load in and the button is momentarily thinner that it should be. This is likely because the icon is accessed from font-awesome. A solution to avoid this could be to render the hamburger icon with 3 grey spans instead.  
-  - The applications landing page displayed poorly on mobile as the text was too wide. Fixed by reducing the font-size their specifically in a media query.
+  - Low contrast between background of figures and the hamburger menu on small viewport sizes. Put a border on the bottom of the hamburger button to make distinction clearer.
+  - The applications landing page displayed poorly on mobile as the text was too wide.
 
 ### Validator Testing 
 
@@ -187,6 +188,7 @@ In the following table, expected results of different permutations of user input
 ### Unfixed Bugs
 
    - Bug where hamburger icon fails to load in quick enough on page load.
+   - Bug where the applications page title takes up too much width on small viewports. Fixing this would require changing multiple class declarations across a number of media queries, was too overwhelming when it was identified.
    - Some pages on the site have a lower than desired lighthouse performance score (materials - 88, applications - 78). This is likely due to the quantity of images in the site and a lack of complete optimisation of image formats. This may cause slower loading times.
 
 ## Deployment
@@ -208,6 +210,7 @@ In the following table, expected results of different permutations of user input
 ### Code
 
 - The hamburger menu was created with code from a page on [Code-Boxx](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/).
+- Centering the page titles in the image div was obtained from css code on [hubspot](https://blog.hubspot.com/website/center-div-css)
 - A number of individual queries and fixes were sought on [Stack Overflow](https://stackoverflow.com/).
 - For refreshing certain concepts and documentations, I used [W3S Schools](https://www.w3schools.com/).
 
