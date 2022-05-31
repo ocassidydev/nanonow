@@ -90,8 +90,6 @@
 
 One feature that I wanted to implement was a means of the about button in the navigation bar to change to the active color when scrolling down past a certain point of the landing page, so it would look like this: 
 
-![AboutNav]
-
 However as far as I have checked querying how far the user is scrolled down the page is only possible to do with javascript, which is outside of the scope of the module.
 
 ***News Page***
@@ -179,10 +177,12 @@ These were checked across each page of the website.
 
 ### Unfixed Bugs
 
+   - Bug where hamburger icon fails to load in quick enough on page load.
+   - Some pages on the site have a lower than desired lighthouse performance score (materials - 88, applications - 78). This is likely due to the quantity of images in the site and a lack of complete optimisation of image formats. This may cause slower loading times.
 
 ## Deployment
 
-- This project was deployed through github pages, using the following steps:
+- This project was deployed through github pages at this [link](https://ocassidydev.github.io/nanonow/contact.html), using the following steps:
 
   - From the github repository, navigated to settings
   - Clicked on "Pages" 
@@ -191,7 +191,7 @@ These were checked across each page of the website.
 
 - For local deployment, run the following command:
 
-    git clone https://github.com/ocassidydev/nanonow.git
+      git clone https://github.com/ocassidydev/nanonow.git
 
 
 ## Credits 
